@@ -29,6 +29,7 @@ documents.listen(connection);
 function validateTextDocument(textDocument) {
     const diagnostics = [];
     const lines = textDocument.getText().split(/\r?\n/g);
+    let inBracketBlock = false;
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
         if (line.startsWith('#')) {
@@ -37,17 +38,27 @@ function validateTextDocument(textDocument) {
         if (/^\s*$/.test(line)) {
             continue;
         }
+        // track if inside a bracket block
+        if (line.includes('[')) {
+            inBracketBlock = true;
+        }
+        if (line.includes(']')) {
+            inBracketBlock = false;
+        }
         if (!(line.endsWith('.') || line.endsWith(',') || line.endsWith(';'))) {
-            const diagnostic = {
-                severity: node_1.DiagnosticSeverity.Error,
-                range: {
-                    start: { line: i, character: 0 },
-                    end: { line: i, character: line.length }
-                },
-                message: `Each line should end with either a dot (.), a comma (,), or a semicolon (;)`,
-                source: 'ttl-lsp'
-            };
-            diagnostics.push(diagnostic);
+            // allow line that starts a bracket block to be exempt
+            if (!(inBracketBlock && line.endsWith('['))) {
+                const diagnostic = {
+                    severity: node_1.DiagnosticSeverity.Error,
+                    range: {
+                        start: { line: i, character: 0 },
+                        end: { line: i, character: line.length }
+                    },
+                    message: `Lines end with a dot, comma, or semicolon`,
+                    source: 'telicent-ies'
+                };
+                diagnostics.push(diagnostic);
+            }
         }
     }
     // Send the computed diagnostics to the LSP client.
