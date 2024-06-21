@@ -26,11 +26,24 @@ documents.onDidOpen((event) => {
     connection.console.log(`[Server(${process.pid}) ${workspaceFolder}] Document opened: ${event.document.uri}`);
 });
 documents.listen(connection);
+
 function validateTextDocument(textDocument) {
     const diagnostics = [];
     const lines = textDocument.getText().split(/\r?\n/g);
+    let inStringLiteral = false;
+    
     for (let i = 0; i < lines.length; i++) {
-        const line = lines[i].trim();
+        let line = lines[i].trim();
+        // check if line starts or ends a string literal
+        if (line.includes('"')) {
+            const quoteCount = (line.match(/"/g) || []).length;
+            if (quoteCount % 2 !== 0) {
+                inStringLiteral = !inStringLiteral;
+            }
+        }
+        if (inStringLiteral) {
+            continue;
+        }
         if (line.startsWith('#')) {
             continue;
         }
@@ -44,8 +57,8 @@ function validateTextDocument(textDocument) {
                     start: { line: i, character: 0 },
                     end: { line: i, character: line.length }
                 },
-                message: `Each line should end with either a dot (.), a comma (,), or a semicolon (;)`,
-                source: 'ttl-lsp'
+                message: `Lines end with a dot, comma, or semicolon`,
+                source: 'telicent-ies'
             };
             diagnostics.push(diagnostic);
         }
