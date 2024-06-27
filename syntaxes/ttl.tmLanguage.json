@@ -15,4628 +15,4620 @@
     "custom-terms": {
       "patterns": [
         {
+          "name": "keyword.prefix.ies",
+          "match": "\\bies:(?=:)"
+        },
+        {
           "name": "keyword.name.ies",
-          "match": "\\b(ies)\\b"
+          "match": "\\bies:\\b(?!:)"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.PeriodOfTime",
-          "match": "\\b(PeriodOfTime)\\b"
+          "match": "(?<=\\bies:)PeriodOfTime\\b"
         },
         {
           "name": "keyword.name.ClassOfElement",
-          "match": "\\b(ClassOfElement)\\b"
+          "match": "(?<=\\bies:)ClassOfElement\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.ClassOfClassOfElement",
-          "match": "\\b(ClassOfClassOfElement)\\b"
+          "match": "(?<=\\bies:)ClassOfClassOfElement\\b"
         },
         {
           "name": "keyword.name.ClassOfElement",
-          "match": "\\b(ClassOfElement)\\b"
+          "match": "(?<=\\bies:)ClassOfElement\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.PeriodOfTime",
-          "match": "\\b(PeriodOfTime)\\b"
+          "match": "(?<=\\bies:)PeriodOfTime\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.ActorState",
-          "match": "\\b(ActorState)\\b"
+          "match": "(?<=\\bies:)ActorState\\b"
         },
         {
           "name": "keyword.name.Actor",
-          "match": "\\b(Actor)\\b"
+          "match": "(?<=\\bies:)Actor\\b"
         },
         {
           "name": "keyword.name.PersonState",
-          "match": "\\b(PersonState)\\b"
+          "match": "(?<=\\bies:)PersonState\\b"
         },
         {
           "name": "keyword.name.ContinuousState",
-          "match": "\\b(ContinuousState)\\b"
+          "match": "(?<=\\bies:)ContinuousState\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.BoundingState",
-          "match": "\\b(BoundingState)\\b"
+          "match": "(?<=\\bies:)BoundingState\\b"
         },
         {
           "name": "keyword.name.PeriodOfTime",
-          "match": "\\b(PeriodOfTime)\\b"
+          "match": "(?<=\\bies:)PeriodOfTime\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.CoLocation",
-          "match": "\\b(CoLocation)\\b"
+          "match": "(?<=\\bies:)CoLocation\\b"
         },
         {
           "name": "keyword.name.Meeting",
-          "match": "\\b(Meeting)\\b"
+          "match": "(?<=\\bies:)Meeting\\b"
         },
         {
           "name": "keyword.name.Actor",
-          "match": "\\b(Actor)\\b"
+          "match": "(?<=\\bies:)Actor\\b"
         },
         {
           "name": "keyword.name.Attendance",
-          "match": "\\b(Attendance)\\b"
+          "match": "(?<=\\bies:)Attendance\\b"
         },
         {
           "name": "keyword.name.MeetingChair",
-          "match": "\\b(MeetingChair)\\b"
+          "match": "(?<=\\bies:)MeetingChair\\b"
         },
         {
           "name": "keyword.name.Role",
-          "match": "\\b(Role)\\b"
+          "match": "(?<=\\bies:)Role\\b"
         },
         {
           "name": "keyword.name.ActiveEventParticipant",
-          "match": "\\b(ActiveEventParticipant)\\b"
+          "match": "(?<=\\bies:)ActiveEventParticipant\\b"
         },
         {
           "name": "keyword.name.BoundingState",
-          "match": "\\b(BoundingState)\\b"
+          "match": "(?<=\\bies:)BoundingState\\b"
         },
         {
           "name": "keyword.name.ContinuousState",
-          "match": "\\b(ContinuousState)\\b"
+          "match": "(?<=\\bies:)ContinuousState\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.PeriodOfTime",
-          "match": "\\b(PeriodOfTime)\\b"
+          "match": "(?<=\\bies:)PeriodOfTime\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.EntertainmentEvent",
-          "match": "\\b(EntertainmentEvent)\\b"
+          "match": "(?<=\\bies:)EntertainmentEvent\\b"
         },
         {
           "name": "keyword.name.ContinuousState",
-          "match": "\\b(ContinuousState)\\b"
+          "match": "(?<=\\bies:)ContinuousState\\b"
         },
         {
           "name": "keyword.name.BoundingState",
-          "match": "\\b(BoundingState)\\b"
+          "match": "(?<=\\bies:)BoundingState\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Movement",
-          "match": "\\b(Movement)\\b"
+          "match": "(?<=\\bies:)Movement\\b"
         },
         {
           "name": "keyword.name.ContinuousState",
-          "match": "\\b(ContinuousState)\\b"
+          "match": "(?<=\\bies:)ContinuousState\\b"
         },
         {
           "name": "keyword.name.PeriodOfTime",
-          "match": "\\b(PeriodOfTime)\\b"
+          "match": "(?<=\\bies:)PeriodOfTime\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.Arrival",
-          "match": "\\b(Arrival)\\b"
+          "match": "(?<=\\bies:)Arrival\\b"
         },
         {
           "name": "keyword.name.DeathState",
-          "match": "\\b(DeathState)\\b"
+          "match": "(?<=\\bies:)DeathState\\b"
         },
         {
           "name": "keyword.name.Departure",
-          "match": "\\b(Departure)\\b"
+          "match": "(?<=\\bies:)Departure\\b"
         },
         {
           "name": "keyword.name.BirthState",
-          "match": "\\b(BirthState)\\b"
+          "match": "(?<=\\bies:)BirthState\\b"
         },
         {
           "name": "keyword.name.BoundingState",
-          "match": "\\b(BoundingState)\\b"
+          "match": "(?<=\\bies:)BoundingState\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.PeriodOfTime",
-          "match": "\\b(PeriodOfTime)\\b"
+          "match": "(?<=\\bies:)PeriodOfTime\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.BoundingState",
-          "match": "\\b(BoundingState)\\b"
+          "match": "(?<=\\bies:)BoundingState\\b"
         },
         {
           "name": "keyword.name.ContinuousState",
-          "match": "\\b(ContinuousState)\\b"
+          "match": "(?<=\\bies:)ContinuousState\\b"
         },
         {
           "name": "keyword.name.DiscontinuousState",
-          "match": "\\b(DiscontinuousState)\\b"
+          "match": "(?<=\\bies:)DiscontinuousState\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.ClassOfIndividualDocument",
-          "match": "\\b(ClassOfIndividualDocument)\\b"
+          "match": "(?<=\\bies:)ClassOfIndividualDocument\\b"
         },
         {
           "name": "keyword.name.IndividualDocument",
-          "match": "\\b(IndividualDocument)\\b"
+          "match": "(?<=\\bies:)IndividualDocument\\b"
         },
         {
           "name": "keyword.name.System",
-          "match": "\\b(System)\\b"
+          "match": "(?<=\\bies:)System\\b"
         },
         {
           "name": "keyword.name.NamingScheme",
-          "match": "\\b(NamingScheme)\\b"
+          "match": "(?<=\\bies:)NamingScheme\\b"
         },
         {
           "name": "keyword.name.ClassOfClassOfEntity",
-          "match": "\\b(ClassOfClassOfEntity)\\b"
+          "match": "(?<=\\bies:)ClassOfClassOfEntity\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.WorkOfDocumentation",
-          "match": "\\b(WorkOfDocumentation)\\b"
+          "match": "(?<=\\bies:)WorkOfDocumentation\\b"
         },
         {
           "name": "keyword.name.Name",
-          "match": "\\b(Name)\\b"
+          "match": "(?<=\\bies:)Name\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.Representation",
-          "match": "\\b(Representation)\\b"
+          "match": "(?<=\\bies:)Representation\\b"
         },
         {
           "name": "keyword.name.ClassOfEntity",
-          "match": "\\b(ClassOfEntity)\\b"
+          "match": "(?<=\\bies:)ClassOfEntity\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.ClassOfElement",
-          "match": "\\b(ClassOfElement)\\b"
+          "match": "(?<=\\bies:)ClassOfElement\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.ParticularPeriod",
-          "match": "\\b(ParticularPeriod)\\b"
+          "match": "(?<=\\bies:)ParticularPeriod\\b"
         },
         {
           "name": "keyword.name.PeriodOfTime",
-          "match": "\\b(PeriodOfTime)\\b"
+          "match": "(?<=\\bies:)PeriodOfTime\\b"
         },
         {
           "name": "keyword.name.TimeBoundedClass",
-          "match": "\\b(TimeBoundedClass)\\b"
+          "match": "(?<=\\bies:)TimeBoundedClass\\b"
         },
         {
           "name": "keyword.name.ClassOfState",
-          "match": "\\b(ClassOfState)\\b"
+          "match": "(?<=\\bies:)ClassOfState\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.ClassOfClassOfElement",
-          "match": "\\b(ClassOfClassOfElement)\\b"
+          "match": "(?<=\\bies:)ClassOfClassOfElement\\b"
         },
         {
           "name": "keyword.name.ClassOfClassOfEntity",
-          "match": "\\b(ClassOfClassOfEntity)\\b"
+          "match": "(?<=\\bies:)ClassOfClassOfEntity\\b"
         },
         {
           "name": "keyword.name.ClassOfEvent",
-          "match": "\\b(ClassOfEvent)\\b"
+          "match": "(?<=\\bies:)ClassOfEvent\\b"
         },
         {
           "name": "keyword.name.ClassOfEntity",
-          "match": "\\b(ClassOfEntity)\\b"
+          "match": "(?<=\\bies:)ClassOfEntity\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.ClassOfElement",
-          "match": "\\b(ClassOfElement)\\b"
+          "match": "(?<=\\bies:)ClassOfElement\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.DatabaseRow",
-          "match": "\\b(DatabaseRow)\\b"
+          "match": "(?<=\\bies:)DatabaseRow\\b"
         },
         {
           "name": "keyword.name.DatabaseItem",
-          "match": "\\b(DatabaseItem)\\b"
+          "match": "(?<=\\bies:)DatabaseItem\\b"
         },
         {
           "name": "keyword.name.DatabaseTable",
-          "match": "\\b(DatabaseTable)\\b"
+          "match": "(?<=\\bies:)DatabaseTable\\b"
         },
         {
           "name": "keyword.name.Database",
-          "match": "\\b(Database)\\b"
+          "match": "(?<=\\bies:)Database\\b"
         },
         {
           "name": "keyword.name.DataObject",
-          "match": "\\b(DataObject)\\b"
+          "match": "(?<=\\bies:)DataObject\\b"
         },
         {
           "name": "keyword.name.ClassOfIndividualDocument",
-          "match": "\\b(ClassOfIndividualDocument)\\b"
+          "match": "(?<=\\bies:)ClassOfIndividualDocument\\b"
         },
         {
           "name": "keyword.name.WorkOfDocumentation",
-          "match": "\\b(WorkOfDocumentation)\\b"
+          "match": "(?<=\\bies:)WorkOfDocumentation\\b"
         },
         {
           "name": "keyword.name.Name",
-          "match": "\\b(Name)\\b"
+          "match": "(?<=\\bies:)Name\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.Representation",
-          "match": "\\b(Representation)\\b"
+          "match": "(?<=\\bies:)Representation\\b"
         },
         {
           "name": "keyword.name.ClassOfEntity",
-          "match": "\\b(ClassOfEntity)\\b"
+          "match": "(?<=\\bies:)ClassOfEntity\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.ClassOfElement",
-          "match": "\\b(ClassOfElement)\\b"
+          "match": "(?<=\\bies:)ClassOfElement\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.SecurityLabel",
-          "match": "\\b(SecurityLabel)\\b"
+          "match": "(?<=\\bies:)SecurityLabel\\b"
         },
         {
           "name": "keyword.name.System",
-          "match": "\\b(System)\\b"
+          "match": "(?<=\\bies:)System\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.ExchangePayload",
-          "match": "\\b(ExchangePayload)\\b"
+          "match": "(?<=\\bies:)ExchangePayload\\b"
         },
         {
           "name": "keyword.name.GroupOfItems",
-          "match": "\\b(GroupOfItems)\\b"
+          "match": "(?<=\\bies:)GroupOfItems\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.ValueInSeconds",
-          "match": "\\b(ValueInSeconds)\\b"
+          "match": "(?<=\\bies:)ValueInSeconds\\b"
         },
         {
           "name": "keyword.name.Duration",
-          "match": "\\b(Duration)\\b"
+          "match": "(?<=\\bies:)Duration\\b"
         },
         {
           "name": "keyword.name.ArbitraryPeriod",
-          "match": "\\b(ArbitraryPeriod)\\b"
+          "match": "(?<=\\bies:)ArbitraryPeriod\\b"
         },
         {
           "name": "keyword.name.ParticularPeriod",
-          "match": "\\b(ParticularPeriod)\\b"
+          "match": "(?<=\\bies:)ParticularPeriod\\b"
         },
         {
           "name": "keyword.name.RecurringPeriod",
-          "match": "\\b(RecurringPeriod)\\b"
+          "match": "(?<=\\bies:)RecurringPeriod\\b"
         },
         {
           "name": "keyword.name.PeriodOfTime",
-          "match": "\\b(PeriodOfTime)\\b"
+          "match": "(?<=\\bies:)PeriodOfTime\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Language",
-          "match": "\\b(Language)\\b"
+          "match": "(?<=\\bies:)Language\\b"
         },
         {
           "name": "keyword.name.ClassOfRepresentation",
-          "match": "\\b(ClassOfRepresentation)\\b"
+          "match": "(?<=\\bies:)ClassOfRepresentation\\b"
         },
         {
           "name": "keyword.name.GeoRepresentation",
-          "match": "\\b(GeoRepresentation)\\b"
+          "match": "(?<=\\bies:)GeoRepresentation\\b"
         },
         {
           "name": "keyword.name.ContentCategory",
-          "match": "\\b(ContentCategory)\\b"
+          "match": "(?<=\\bies:)ContentCategory\\b"
         },
         {
           "name": "keyword.name.ClassOfClassOfEntity",
-          "match": "\\b(ClassOfClassOfEntity)\\b"
+          "match": "(?<=\\bies:)ClassOfClassOfEntity\\b"
         },
         {
           "name": "keyword.name.ClassOfIndividualDocument",
-          "match": "\\b(ClassOfIndividualDocument)\\b"
+          "match": "(?<=\\bies:)ClassOfIndividualDocument\\b"
         },
         {
           "name": "keyword.name.WorkOfDocumentation",
-          "match": "\\b(WorkOfDocumentation)\\b"
+          "match": "(?<=\\bies:)WorkOfDocumentation\\b"
         },
         {
           "name": "keyword.name.Representation",
-          "match": "\\b(Representation)\\b"
+          "match": "(?<=\\bies:)Representation\\b"
         },
         {
           "name": "keyword.name.ClassOfEntity",
-          "match": "\\b(ClassOfEntity)\\b"
+          "match": "(?<=\\bies:)ClassOfEntity\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.ClassOfElement",
-          "match": "\\b(ClassOfElement)\\b"
+          "match": "(?<=\\bies:)ClassOfElement\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Arrested",
-          "match": "\\b(Arrested)\\b"
+          "match": "(?<=\\bies:)Arrested\\b"
         },
         {
           "name": "keyword.name.ArrestingOfficer",
-          "match": "\\b(ArrestingOfficer)\\b"
+          "match": "(?<=\\bies:)ArrestingOfficer\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.Arrest",
-          "match": "\\b(Arrest)\\b"
+          "match": "(?<=\\bies:)Arrest\\b"
         },
         {
           "name": "keyword.name.PeriodOfTime",
-          "match": "\\b(PeriodOfTime)\\b"
+          "match": "(?<=\\bies:)PeriodOfTime\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.MeasureRange",
-          "match": "\\b(MeasureRange)\\b"
+          "match": "(?<=\\bies:)MeasureRange\\b"
         },
         {
           "name": "keyword.name.Representation",
-          "match": "\\b(Representation)\\b"
+          "match": "(?<=\\bies:)Representation\\b"
         },
         {
           "name": "keyword.name.ValueInMoles",
-          "match": "\\b(ValueInMoles)\\b"
+          "match": "(?<=\\bies:)ValueInMoles\\b"
         },
         {
           "name": "keyword.name.ValueInKelvin",
-          "match": "\\b(ValueInKelvin)\\b"
+          "match": "(?<=\\bies:)ValueInKelvin\\b"
         },
         {
           "name": "keyword.name.ValueInAmperes",
-          "match": "\\b(ValueInAmperes)\\b"
+          "match": "(?<=\\bies:)ValueInAmperes\\b"
         },
         {
           "name": "keyword.name.ValueInSeconds",
-          "match": "\\b(ValueInSeconds)\\b"
+          "match": "(?<=\\bies:)ValueInSeconds\\b"
         },
         {
           "name": "keyword.name.ValueInKilograms",
-          "match": "\\b(ValueInKilograms)\\b"
+          "match": "(?<=\\bies:)ValueInKilograms\\b"
         },
         {
           "name": "keyword.name.ValueInCandela",
-          "match": "\\b(ValueInCandela)\\b"
+          "match": "(?<=\\bies:)ValueInCandela\\b"
         },
         {
           "name": "keyword.name.ValueInMetres",
-          "match": "\\b(ValueInMetres)\\b"
+          "match": "(?<=\\bies:)ValueInMetres\\b"
         },
         {
           "name": "keyword.name.StandardMeasureValue",
-          "match": "\\b(StandardMeasureValue)\\b"
+          "match": "(?<=\\bies:)StandardMeasureValue\\b"
         },
         {
           "name": "keyword.name.UnitOfMeasure",
-          "match": "\\b(UnitOfMeasure)\\b"
+          "match": "(?<=\\bies:)UnitOfMeasure\\b"
         },
         {
           "name": "keyword.name.ClassOfMeasureValue",
-          "match": "\\b(ClassOfMeasureValue)\\b"
+          "match": "(?<=\\bies:)ClassOfMeasureValue\\b"
         },
         {
           "name": "keyword.name.Measure",
-          "match": "\\b(Measure)\\b"
+          "match": "(?<=\\bies:)Measure\\b"
         },
         {
           "name": "keyword.name.LuminousIntensity",
-          "match": "\\b(LuminousIntensity)\\b"
+          "match": "(?<=\\bies:)LuminousIntensity\\b"
         },
         {
           "name": "keyword.name.AmountOfSubstance",
-          "match": "\\b(AmountOfSubstance)\\b"
+          "match": "(?<=\\bies:)AmountOfSubstance\\b"
         },
         {
           "name": "keyword.name.Temperature",
-          "match": "\\b(Temperature)\\b"
+          "match": "(?<=\\bies:)Temperature\\b"
         },
         {
           "name": "keyword.name.ElectricCurrent",
-          "match": "\\b(ElectricCurrent)\\b"
+          "match": "(?<=\\bies:)ElectricCurrent\\b"
         },
         {
           "name": "keyword.name.Duration",
-          "match": "\\b(Duration)\\b"
+          "match": "(?<=\\bies:)Duration\\b"
         },
         {
           "name": "keyword.name.Mass",
-          "match": "\\b(Mass)\\b"
+          "match": "(?<=\\bies:)Mass\\b"
         },
         {
           "name": "keyword.name.Length",
-          "match": "\\b(Length)\\b"
+          "match": "(?<=\\bies:)Length\\b"
         },
         {
           "name": "keyword.name.MeasureValue",
-          "match": "\\b(MeasureValue)\\b"
+          "match": "(?<=\\bies:)MeasureValue\\b"
         },
         {
           "name": "keyword.name.StandardMeasure",
-          "match": "\\b(StandardMeasure)\\b"
+          "match": "(?<=\\bies:)StandardMeasure\\b"
         },
         {
           "name": "keyword.name.Colour",
-          "match": "\\b(Colour)\\b"
+          "match": "(?<=\\bies:)Colour\\b"
         },
         {
           "name": "keyword.name.Characteristic",
-          "match": "\\b(Characteristic)\\b"
+          "match": "(?<=\\bies:)Characteristic\\b"
         },
         {
           "name": "keyword.name.ClassOfElement",
-          "match": "\\b(ClassOfElement)\\b"
+          "match": "(?<=\\bies:)ClassOfElement\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.Tendency",
-          "match": "\\b(Tendency)\\b"
+          "match": "(?<=\\bies:)Tendency\\b"
         },
         {
           "name": "keyword.name.Capability",
-          "match": "\\b(Capability)\\b"
+          "match": "(?<=\\bies:)Capability\\b"
         },
         {
           "name": "keyword.name.ClassOfState",
-          "match": "\\b(ClassOfState)\\b"
+          "match": "(?<=\\bies:)ClassOfState\\b"
         },
         {
           "name": "keyword.name.ClassOfEvent",
-          "match": "\\b(ClassOfEvent)\\b"
+          "match": "(?<=\\bies:)ClassOfEvent\\b"
         },
         {
           "name": "keyword.name.ClassOfEntity",
-          "match": "\\b(ClassOfEntity)\\b"
+          "match": "(?<=\\bies:)ClassOfEntity\\b"
         },
         {
           "name": "keyword.name.DispositionalClass",
-          "match": "\\b(DispositionalClass)\\b"
+          "match": "(?<=\\bies:)DispositionalClass\\b"
         },
         {
           "name": "keyword.name.ClassOfElement",
-          "match": "\\b(ClassOfElement)\\b"
+          "match": "(?<=\\bies:)ClassOfElement\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.PartNumber",
-          "match": "\\b(PartNumber)\\b"
+          "match": "(?<=\\bies:)PartNumber\\b"
         },
         {
           "name": "keyword.name.OperatingSystem",
-          "match": "\\b(OperatingSystem)\\b"
+          "match": "(?<=\\bies:)OperatingSystem\\b"
         },
         {
           "name": "keyword.name.Software",
-          "match": "\\b(Software)\\b"
+          "match": "(?<=\\bies:)Software\\b"
         },
         {
           "name": "keyword.name.ModelOfDevice",
-          "match": "\\b(ModelOfDevice)\\b"
+          "match": "(?<=\\bies:)ModelOfDevice\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.CommunicationsIdentifier",
-          "match": "\\b(CommunicationsIdentifier)\\b"
+          "match": "(?<=\\bies:)CommunicationsIdentifier\\b"
         },
         {
           "name": "keyword.name.System",
-          "match": "\\b(System)\\b"
+          "match": "(?<=\\bies:)System\\b"
         },
         {
           "name": "keyword.name.Asset",
-          "match": "\\b(Asset)\\b"
+          "match": "(?<=\\bies:)Asset\\b"
         },
         {
           "name": "keyword.name.Device",
-          "match": "\\b(Device)\\b"
+          "match": "(?<=\\bies:)Device\\b"
         },
         {
           "name": "keyword.name.DeviceState",
-          "match": "\\b(DeviceState)\\b"
+          "match": "(?<=\\bies:)DeviceState\\b"
         },
         {
           "name": "keyword.name.IMEI",
-          "match": "\\b(IMEI)\\b"
+          "match": "(?<=\\bies:)IMEI\\b"
         },
         {
           "name": "keyword.name.SerialNumber",
-          "match": "\\b(SerialNumber)\\b"
+          "match": "(?<=\\bies:)SerialNumber\\b"
         },
         {
           "name": "keyword.name.SIMCard",
-          "match": "\\b(SIMCard)\\b"
+          "match": "(?<=\\bies:)SIMCard\\b"
         },
         {
           "name": "keyword.name.PersonalRadioHandset",
-          "match": "\\b(PersonalRadioHandset)\\b"
+          "match": "(?<=\\bies:)PersonalRadioHandset\\b"
         },
         {
           "name": "keyword.name.IPPhoneHandset",
-          "match": "\\b(IPPhoneHandset)\\b"
+          "match": "(?<=\\bies:)IPPhoneHandset\\b"
         },
         {
           "name": "keyword.name.CBRadioHandset",
-          "match": "\\b(CBRadioHandset)\\b"
+          "match": "(?<=\\bies:)CBRadioHandset\\b"
         },
         {
           "name": "keyword.name.LandlineHandset",
-          "match": "\\b(LandlineHandset)\\b"
+          "match": "(?<=\\bies:)LandlineHandset\\b"
         },
         {
           "name": "keyword.name.SatellitePhoneHandset",
-          "match": "\\b(SatellitePhoneHandset)\\b"
+          "match": "(?<=\\bies:)SatellitePhoneHandset\\b"
         },
         {
           "name": "keyword.name.MobileHandset",
-          "match": "\\b(MobileHandset)\\b"
+          "match": "(?<=\\bies:)MobileHandset\\b"
         },
         {
           "name": "keyword.name.CommunicationsDevice",
-          "match": "\\b(CommunicationsDevice)\\b"
+          "match": "(?<=\\bies:)CommunicationsDevice\\b"
         },
         {
           "name": "keyword.name.IPv6Address",
-          "match": "\\b(IPv6Address)\\b"
+          "match": "(?<=\\bies:)IPv6Address\\b"
         },
         {
           "name": "keyword.name.IPv4Address",
-          "match": "\\b(IPv4Address)\\b"
+          "match": "(?<=\\bies:)IPv4Address\\b"
         },
         {
           "name": "keyword.name.Country",
-          "match": "\\b(Country)\\b"
+          "match": "(?<=\\bies:)Country\\b"
         },
         {
           "name": "keyword.name.TelephoneCountryCode",
-          "match": "\\b(TelephoneCountryCode)\\b"
+          "match": "(?<=\\bies:)TelephoneCountryCode\\b"
         },
         {
           "name": "keyword.name.CommunicationsAccountState",
-          "match": "\\b(CommunicationsAccountState)\\b"
+          "match": "(?<=\\bies:)CommunicationsAccountState\\b"
         },
         {
           "name": "keyword.name.CommunicationsAccount",
-          "match": "\\b(CommunicationsAccount)\\b"
+          "match": "(?<=\\bies:)CommunicationsAccount\\b"
         },
         {
           "name": "keyword.name.DeviceState",
-          "match": "\\b(DeviceState)\\b"
+          "match": "(?<=\\bies:)DeviceState\\b"
         },
         {
           "name": "keyword.name.Name",
-          "match": "\\b(Name)\\b"
+          "match": "(?<=\\bies:)Name\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.Representation",
-          "match": "\\b(Representation)\\b"
+          "match": "(?<=\\bies:)Representation\\b"
         },
         {
           "name": "keyword.name.TelephoneNumber",
-          "match": "\\b(TelephoneNumber)\\b"
+          "match": "(?<=\\bies:)TelephoneNumber\\b"
         },
         {
           "name": "keyword.name.MACAddress",
-          "match": "\\b(MACAddress)\\b"
+          "match": "(?<=\\bies:)MACAddress\\b"
         },
         {
           "name": "keyword.name.IMSI",
-          "match": "\\b(IMSI)\\b"
+          "match": "(?<=\\bies:)IMSI\\b"
         },
         {
           "name": "keyword.name.EmailAddress",
-          "match": "\\b(EmailAddress)\\b"
+          "match": "(?<=\\bies:)EmailAddress\\b"
         },
         {
           "name": "keyword.name.IPAddress",
-          "match": "\\b(IPAddress)\\b"
+          "match": "(?<=\\bies:)IPAddress\\b"
         },
         {
           "name": "keyword.name.Callsign",
-          "match": "\\b(Callsign)\\b"
+          "match": "(?<=\\bies:)Callsign\\b"
         },
         {
           "name": "keyword.name.CommunicationsIdentifier",
-          "match": "\\b(CommunicationsIdentifier)\\b"
+          "match": "(?<=\\bies:)CommunicationsIdentifier\\b"
         },
         {
           "name": "keyword.name.Device",
-          "match": "\\b(Device)\\b"
+          "match": "(?<=\\bies:)Device\\b"
         },
         {
           "name": "keyword.name.CommunicationsAccount",
-          "match": "\\b(CommunicationsAccount)\\b"
+          "match": "(?<=\\bies:)CommunicationsAccount\\b"
         },
         {
           "name": "keyword.name.CommunicationsAccountState",
-          "match": "\\b(CommunicationsAccountState)\\b"
+          "match": "(?<=\\bies:)CommunicationsAccountState\\b"
         },
         {
           "name": "keyword.name.Name",
-          "match": "\\b(Name)\\b"
+          "match": "(?<=\\bies:)Name\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.Representation",
-          "match": "\\b(Representation)\\b"
+          "match": "(?<=\\bies:)Representation\\b"
         },
         {
           "name": "keyword.name.DeviceState",
-          "match": "\\b(DeviceState)\\b"
+          "match": "(?<=\\bies:)DeviceState\\b"
         },
         {
           "name": "keyword.name.CommunicationsIdentifier",
-          "match": "\\b(CommunicationsIdentifier)\\b"
+          "match": "(?<=\\bies:)CommunicationsIdentifier\\b"
         },
         {
           "name": "keyword.name.TelephoneNumberRange",
-          "match": "\\b(TelephoneNumberRange)\\b"
+          "match": "(?<=\\bies:)TelephoneNumberRange\\b"
         },
         {
           "name": "keyword.name.DomainName",
-          "match": "\\b(DomainName)\\b"
+          "match": "(?<=\\bies:)DomainName\\b"
         },
         {
           "name": "keyword.name.IPAddressRange",
-          "match": "\\b(IPAddressRange)\\b"
+          "match": "(?<=\\bies:)IPAddressRange\\b"
         },
         {
           "name": "keyword.name.CommunicationsIdentifierRange",
-          "match": "\\b(CommunicationsIdentifierRange)\\b"
+          "match": "(?<=\\bies:)CommunicationsIdentifierRange\\b"
         },
         {
           "name": "keyword.name.GeoRepresentation",
-          "match": "\\b(GeoRepresentation)\\b"
+          "match": "(?<=\\bies:)GeoRepresentation\\b"
         },
         {
           "name": "keyword.name.DataKey",
-          "match": "\\b(DataKey)\\b"
+          "match": "(?<=\\bies:)DataKey\\b"
         },
         {
           "name": "keyword.name.ObjectName",
-          "match": "\\b(ObjectName)\\b"
+          "match": "(?<=\\bies:)ObjectName\\b"
         },
         {
           "name": "keyword.name.Name",
-          "match": "\\b(Name)\\b"
+          "match": "(?<=\\bies:)Name\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.DatabaseRow",
-          "match": "\\b(DatabaseRow)\\b"
+          "match": "(?<=\\bies:)DatabaseRow\\b"
         },
         {
           "name": "keyword.name.DatabaseTable",
-          "match": "\\b(DatabaseTable)\\b"
+          "match": "(?<=\\bies:)DatabaseTable\\b"
         },
         {
           "name": "keyword.name.DatabaseItem",
-          "match": "\\b(DatabaseItem)\\b"
+          "match": "(?<=\\bies:)DatabaseItem\\b"
         },
         {
           "name": "keyword.name.Database",
-          "match": "\\b(Database)\\b"
+          "match": "(?<=\\bies:)Database\\b"
         },
         {
           "name": "keyword.name.Representation",
-          "match": "\\b(Representation)\\b"
+          "match": "(?<=\\bies:)Representation\\b"
         },
         {
           "name": "keyword.name.MediaFile",
-          "match": "\\b(MediaFile)\\b"
+          "match": "(?<=\\bies:)MediaFile\\b"
         },
         {
           "name": "keyword.name.SchemaObject",
-          "match": "\\b(SchemaObject)\\b"
+          "match": "(?<=\\bies:)SchemaObject\\b"
         },
         {
           "name": "keyword.name.GeoObject",
-          "match": "\\b(GeoObject)\\b"
+          "match": "(?<=\\bies:)GeoObject\\b"
         },
         {
           "name": "keyword.name.DataObject",
-          "match": "\\b(DataObject)\\b"
+          "match": "(?<=\\bies:)DataObject\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.ParticularPeriod",
-          "match": "\\b(ParticularPeriod)\\b"
+          "match": "(?<=\\bies:)ParticularPeriod\\b"
         },
         {
           "name": "keyword.name.DocumentFormat",
-          "match": "\\b(DocumentFormat)\\b"
+          "match": "(?<=\\bies:)DocumentFormat\\b"
         },
         {
           "name": "keyword.name.IndividualDocumentID",
-          "match": "\\b(IndividualDocumentID)\\b"
+          "match": "(?<=\\bies:)IndividualDocumentID\\b"
         },
         {
           "name": "keyword.name.Name",
-          "match": "\\b(Name)\\b"
+          "match": "(?<=\\bies:)Name\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.Representation",
-          "match": "\\b(Representation)\\b"
+          "match": "(?<=\\bies:)Representation\\b"
         },
         {
           "name": "keyword.name.IdentityDocument",
-          "match": "\\b(IdentityDocument)\\b"
+          "match": "(?<=\\bies:)IdentityDocument\\b"
         },
         {
           "name": "keyword.name.WorkOfDocumentation",
-          "match": "\\b(WorkOfDocumentation)\\b"
+          "match": "(?<=\\bies:)WorkOfDocumentation\\b"
         },
         {
           "name": "keyword.name.URL",
-          "match": "\\b(URL)\\b"
+          "match": "(?<=\\bies:)URL\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.ReferenceNumber",
-          "match": "\\b(ReferenceNumber)\\b"
+          "match": "(?<=\\bies:)ReferenceNumber\\b"
         },
         {
           "name": "keyword.name.Title",
-          "match": "\\b(Title)\\b"
+          "match": "(?<=\\bies:)Title\\b"
         },
         {
           "name": "keyword.name.Warrant",
-          "match": "\\b(Warrant)\\b"
+          "match": "(?<=\\bies:)Warrant\\b"
         },
         {
           "name": "keyword.name.Book",
-          "match": "\\b(Book)\\b"
+          "match": "(?<=\\bies:)Book\\b"
         },
         {
           "name": "keyword.name.Report",
-          "match": "\\b(Report)\\b"
+          "match": "(?<=\\bies:)Report\\b"
         },
         {
           "name": "keyword.name.IndividualDocument",
-          "match": "\\b(IndividualDocument)\\b"
+          "match": "(?<=\\bies:)IndividualDocument\\b"
         },
         {
           "name": "keyword.name.RoomNumber",
-          "match": "\\b(RoomNumber)\\b"
+          "match": "(?<=\\bies:)RoomNumber\\b"
         },
         {
           "name": "keyword.name.PartOfFacility",
-          "match": "\\b(PartOfFacility)\\b"
+          "match": "(?<=\\bies:)PartOfFacility\\b"
         },
         {
           "name": "keyword.name.Altitude",
-          "match": "\\b(Altitude)\\b"
+          "match": "(?<=\\bies:)Altitude\\b"
         },
         {
           "name": "keyword.name.ValueInMetres",
-          "match": "\\b(ValueInMetres)\\b"
+          "match": "(?<=\\bies:)ValueInMetres\\b"
         },
         {
           "name": "keyword.name.Length",
-          "match": "\\b(Length)\\b"
+          "match": "(?<=\\bies:)Length\\b"
         },
         {
           "name": "keyword.name.PointOnEarthSurface",
-          "match": "\\b(PointOnEarthSurface)\\b"
+          "match": "(?<=\\bies:)PointOnEarthSurface\\b"
         },
         {
           "name": "keyword.name.Longitude",
-          "match": "\\b(Longitude)\\b"
+          "match": "(?<=\\bies:)Longitude\\b"
         },
         {
           "name": "keyword.name.Latitude",
-          "match": "\\b(Latitude)\\b"
+          "match": "(?<=\\bies:)Latitude\\b"
         },
         {
           "name": "keyword.name.GeoPoint",
-          "match": "\\b(GeoPoint)\\b"
+          "match": "(?<=\\bies:)GeoPoint\\b"
         },
         {
           "name": "keyword.name.GML",
-          "match": "\\b(GML)\\b"
-        },
-        {
-          "name": "keyword.name.ISO19125-WKT",
-          "match": "\\b(ISO19125-WKT)\\b"
+          "match": "(?<=\\bies:)GML\\b"
         },
         {
           "name": "keyword.name.GeoJSON",
-          "match": "\\b(GeoJSON)\\b"
+          "match": "(?<=\\bies:)GeoJSON\\b"
         },
         {
           "name": "keyword.name.GeoRepresentation",
-          "match": "\\b(GeoRepresentation)\\b"
+          "match": "(?<=\\bies:)GeoRepresentation\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.RealEstate",
-          "match": "\\b(RealEstate)\\b"
+          "match": "(?<=\\bies:)RealEstate\\b"
         },
         {
           "name": "keyword.name.PlaceName",
-          "match": "\\b(PlaceName)\\b"
+          "match": "(?<=\\bies:)PlaceName\\b"
         },
         {
           "name": "keyword.name.Name",
-          "match": "\\b(Name)\\b"
+          "match": "(?<=\\bies:)Name\\b"
         },
         {
           "name": "keyword.name.Representation",
-          "match": "\\b(Representation)\\b"
+          "match": "(?<=\\bies:)Representation\\b"
         },
         {
           "name": "keyword.name.FirstLineOfAddress",
-          "match": "\\b(FirstLineOfAddress)\\b"
+          "match": "(?<=\\bies:)FirstLineOfAddress\\b"
         },
         {
           "name": "keyword.name.PostalCode",
-          "match": "\\b(PostalCode)\\b"
+          "match": "(?<=\\bies:)PostalCode\\b"
         },
         {
           "name": "keyword.name.TOID",
-          "match": "\\b(TOID)\\b"
+          "match": "(?<=\\bies:)TOID\\b"
         },
         {
           "name": "keyword.name.What3words",
-          "match": "\\b(What3words)\\b"
+          "match": "(?<=\\bies:)What3words\\b"
         },
         {
           "name": "keyword.name.GeoIdentity",
-          "match": "\\b(GeoIdentity)\\b"
+          "match": "(?<=\\bies:)GeoIdentity\\b"
         },
         {
           "name": "keyword.name.ICAOCode",
-          "match": "\\b(ICAOCode)\\b"
+          "match": "(?<=\\bies:)ICAOCode\\b"
         },
         {
           "name": "keyword.name.IATACode",
-          "match": "\\b(IATACode)\\b"
+          "match": "(?<=\\bies:)IATACode\\b"
         },
         {
           "name": "keyword.name.UN_LOCODE",
-          "match": "\\b(UN_LOCODE)\\b"
+          "match": "(?<=\\bies:)UN_LOCODE\\b"
         },
         {
           "name": "keyword.name.Airport",
-          "match": "\\b(Airport)\\b"
+          "match": "(?<=\\bies:)Airport\\b"
         },
         {
           "name": "keyword.name.Port",
-          "match": "\\b(Port)\\b"
+          "match": "(?<=\\bies:)Port\\b"
         },
         {
           "name": "keyword.name.Facility",
-          "match": "\\b(Facility)\\b"
+          "match": "(?<=\\bies:)Facility\\b"
         },
         {
           "name": "keyword.name.Address",
-          "match": "\\b(Address)\\b"
+          "match": "(?<=\\bies:)Address\\b"
         },
         {
           "name": "keyword.name.RegionOfCountry",
-          "match": "\\b(RegionOfCountry)\\b"
+          "match": "(?<=\\bies:)RegionOfCountry\\b"
         },
         {
           "name": "keyword.name.RegionOfWorld",
-          "match": "\\b(RegionOfWorld)\\b"
+          "match": "(?<=\\bies:)RegionOfWorld\\b"
         },
         {
           "name": "keyword.name.GeographicFeature",
-          "match": "\\b(GeographicFeature)\\b"
+          "match": "(?<=\\bies:)GeographicFeature\\b"
         },
         {
           "name": "keyword.name.ISO3166_1Alpha_3",
-          "match": "\\b(ISO3166_1Alpha_3)\\b"
+          "match": "(?<=\\bies:)ISO3166_1Alpha_3\\b"
         },
         {
           "name": "keyword.name.Country",
-          "match": "\\b(Country)\\b"
+          "match": "(?<=\\bies:)Country\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.ClassOfOnlineService",
-          "match": "\\b(ClassOfOnlineService)\\b"
+          "match": "(?<=\\bies:)ClassOfOnlineService\\b"
         },
         {
           "name": "keyword.name.OnlineAccountState",
-          "match": "\\b(OnlineAccountState)\\b"
+          "match": "(?<=\\bies:)OnlineAccountState\\b"
         },
         {
           "name": "keyword.name.ServiceName",
-          "match": "\\b(ServiceName)\\b"
+          "match": "(?<=\\bies:)ServiceName\\b"
         },
         {
           "name": "keyword.name.ScreenName",
-          "match": "\\b(ScreenName)\\b"
+          "match": "(?<=\\bies:)ScreenName\\b"
         },
         {
           "name": "keyword.name.Username",
-          "match": "\\b(Username)\\b"
+          "match": "(?<=\\bies:)Username\\b"
         },
         {
           "name": "keyword.name.Name",
-          "match": "\\b(Name)\\b"
+          "match": "(?<=\\bies:)Name\\b"
         },
         {
           "name": "keyword.name.BoundingState",
-          "match": "\\b(BoundingState)\\b"
+          "match": "(?<=\\bies:)BoundingState\\b"
         },
         {
           "name": "keyword.name.ParticularPeriod",
-          "match": "\\b(ParticularPeriod)\\b"
+          "match": "(?<=\\bies:)ParticularPeriod\\b"
         },
         {
           "name": "keyword.name.Device",
-          "match": "\\b(Device)\\b"
+          "match": "(?<=\\bies:)Device\\b"
         },
         {
           "name": "keyword.name.Cookie",
-          "match": "\\b(Cookie)\\b"
+          "match": "(?<=\\bies:)Cookie\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.AccountHolder",
-          "match": "\\b(AccountHolder)\\b"
+          "match": "(?<=\\bies:)AccountHolder\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.ContentCategory",
-          "match": "\\b(ContentCategory)\\b"
+          "match": "(?<=\\bies:)ContentCategory\\b"
         },
         {
           "name": "keyword.name.WebResourceState",
-          "match": "\\b(WebResourceState)\\b"
+          "match": "(?<=\\bies:)WebResourceState\\b"
         },
         {
           "name": "keyword.name.Representation",
-          "match": "\\b(Representation)\\b"
+          "match": "(?<=\\bies:)Representation\\b"
         },
         {
           "name": "keyword.name.LiveCast",
-          "match": "\\b(LiveCast)\\b"
+          "match": "(?<=\\bies:)LiveCast\\b"
         },
         {
           "name": "keyword.name.OnlineLike",
-          "match": "\\b(OnlineLike)\\b"
+          "match": "(?<=\\bies:)OnlineLike\\b"
         },
         {
           "name": "keyword.name.OnlineComment",
-          "match": "\\b(OnlineComment)\\b"
+          "match": "(?<=\\bies:)OnlineComment\\b"
         },
         {
           "name": "keyword.name.SocialMediaPost",
-          "match": "\\b(SocialMediaPost)\\b"
+          "match": "(?<=\\bies:)SocialMediaPost\\b"
         },
         {
           "name": "keyword.name.SocialMediaPage",
-          "match": "\\b(SocialMediaPage)\\b"
+          "match": "(?<=\\bies:)SocialMediaPage\\b"
         },
         {
           "name": "keyword.name.Account",
-          "match": "\\b(Account)\\b"
+          "match": "(?<=\\bies:)Account\\b"
         },
         {
           "name": "keyword.name.OnlineArtefact",
-          "match": "\\b(OnlineArtefact)\\b"
+          "match": "(?<=\\bies:)OnlineArtefact\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.WebResource",
-          "match": "\\b(WebResource)\\b"
+          "match": "(?<=\\bies:)WebResource\\b"
         },
         {
           "name": "keyword.name.URL",
-          "match": "\\b(URL)\\b"
+          "match": "(?<=\\bies:)URL\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Webpage",
-          "match": "\\b(Webpage)\\b"
+          "match": "(?<=\\bies:)Webpage\\b"
         },
         {
           "name": "keyword.name.OnlineService",
-          "match": "\\b(OnlineService)\\b"
+          "match": "(?<=\\bies:)OnlineService\\b"
         },
         {
           "name": "keyword.name.OnlineAccount",
-          "match": "\\b(OnlineAccount)\\b"
+          "match": "(?<=\\bies:)OnlineAccount\\b"
         },
         {
           "name": "keyword.name.JointAccount",
-          "match": "\\b(JointAccount)\\b"
+          "match": "(?<=\\bies:)JointAccount\\b"
         },
         {
           "name": "keyword.name.ClassOfFinancialAccount",
-          "match": "\\b(ClassOfFinancialAccount)\\b"
+          "match": "(?<=\\bies:)ClassOfFinancialAccount\\b"
         },
         {
           "name": "keyword.name.AccountHolder",
-          "match": "\\b(AccountHolder)\\b"
+          "match": "(?<=\\bies:)AccountHolder\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.Bank",
-          "match": "\\b(Bank)\\b"
+          "match": "(?<=\\bies:)Bank\\b"
         },
         {
           "name": "keyword.name.BankBranch",
-          "match": "\\b(BankBranch)\\b"
+          "match": "(?<=\\bies:)BankBranch\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.DiscontinuousState",
-          "match": "\\b(DiscontinuousState)\\b"
+          "match": "(?<=\\bies:)DiscontinuousState\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.AccountState",
-          "match": "\\b(AccountState)\\b"
+          "match": "(?<=\\bies:)AccountState\\b"
         },
         {
           "name": "keyword.name.Account",
-          "match": "\\b(Account)\\b"
+          "match": "(?<=\\bies:)Account\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Country",
-          "match": "\\b(Country)\\b"
+          "match": "(?<=\\bies:)Country\\b"
         },
         {
           "name": "keyword.name.CustomerIdentifier",
-          "match": "\\b(CustomerIdentifier)\\b"
+          "match": "(?<=\\bies:)CustomerIdentifier\\b"
         },
         {
           "name": "keyword.name.IBAN",
-          "match": "\\b(IBAN)\\b"
+          "match": "(?<=\\bies:)IBAN\\b"
         },
         {
           "name": "keyword.name.BranchCode",
-          "match": "\\b(BranchCode)\\b"
+          "match": "(?<=\\bies:)BranchCode\\b"
         },
         {
           "name": "keyword.name.AccountNumber",
-          "match": "\\b(AccountNumber)\\b"
+          "match": "(?<=\\bies:)AccountNumber\\b"
         },
         {
           "name": "keyword.name.FinancialAccount",
-          "match": "\\b(FinancialAccount)\\b"
+          "match": "(?<=\\bies:)FinancialAccount\\b"
         },
         {
           "name": "keyword.name.PersonHeight",
-          "match": "\\b(PersonHeight)\\b"
+          "match": "(?<=\\bies:)PersonHeight\\b"
         },
         {
           "name": "keyword.name.ValueInMetres",
-          "match": "\\b(ValueInMetres)\\b"
+          "match": "(?<=\\bies:)ValueInMetres\\b"
         },
         {
           "name": "keyword.name.Length",
-          "match": "\\b(Length)\\b"
+          "match": "(?<=\\bies:)Length\\b"
         },
         {
           "name": "keyword.name.LanguageProficiency",
-          "match": "\\b(LanguageProficiency)\\b"
-        },
-        {
-          "name": "keyword.name.ISO639-3Code",
-          "match": "\\b(ISO639-3Code)\\b"
+          "match": "(?<=\\bies:)LanguageProficiency\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.Language",
-          "match": "\\b(Language)\\b"
+          "match": "(?<=\\bies:)Language\\b"
         },
         {
           "name": "keyword.name.Ethnicity",
-          "match": "\\b(Ethnicity)\\b"
+          "match": "(?<=\\bies:)Ethnicity\\b"
         },
         {
           "name": "keyword.name.Gender",
-          "match": "\\b(Gender)\\b"
+          "match": "(?<=\\bies:)Gender\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.SubjectOfInterest",
-          "match": "\\b(SubjectOfInterest)\\b"
+          "match": "(?<=\\bies:)SubjectOfInterest\\b"
         },
         {
           "name": "keyword.name.PersonName",
-          "match": "\\b(PersonName)\\b"
+          "match": "(?<=\\bies:)PersonName\\b"
         },
         {
           "name": "keyword.name.NamingScheme",
-          "match": "\\b(NamingScheme)\\b"
+          "match": "(?<=\\bies:)NamingScheme\\b"
         },
         {
           "name": "keyword.name.Name",
-          "match": "\\b(Name)\\b"
+          "match": "(?<=\\bies:)Name\\b"
         },
         {
           "name": "keyword.name.Religion",
-          "match": "\\b(Religion)\\b"
+          "match": "(?<=\\bies:)Religion\\b"
         },
         {
           "name": "keyword.name.PersonState",
-          "match": "\\b(PersonState)\\b"
+          "match": "(?<=\\bies:)PersonState\\b"
         },
         {
           "name": "keyword.name.PeriodOfTime",
-          "match": "\\b(PeriodOfTime)\\b"
+          "match": "(?<=\\bies:)PeriodOfTime\\b"
         },
         {
           "name": "keyword.name.Nickname",
-          "match": "\\b(Nickname)\\b"
+          "match": "(?<=\\bies:)Nickname\\b"
         },
         {
           "name": "keyword.name.Surname",
-          "match": "\\b(Surname)\\b"
+          "match": "(?<=\\bies:)Surname\\b"
         },
         {
           "name": "keyword.name.GivenName",
-          "match": "\\b(GivenName)\\b"
+          "match": "(?<=\\bies:)GivenName\\b"
         },
         {
           "name": "keyword.name.Nation",
-          "match": "\\b(Nation)\\b"
+          "match": "(?<=\\bies:)Nation\\b"
         },
         {
           "name": "keyword.name.DeathState",
-          "match": "\\b(DeathState)\\b"
+          "match": "(?<=\\bies:)DeathState\\b"
         },
         {
           "name": "keyword.name.BirthState",
-          "match": "\\b(BirthState)\\b"
+          "match": "(?<=\\bies:)BirthState\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.PersonTitle",
-          "match": "\\b(PersonTitle)\\b"
+          "match": "(?<=\\bies:)PersonTitle\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.ParticularPeriod",
-          "match": "\\b(ParticularPeriod)\\b"
+          "match": "(?<=\\bies:)ParticularPeriod\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.TravelService",
-          "match": "\\b(TravelService)\\b"
+          "match": "(?<=\\bies:)TravelService\\b"
         },
         {
           "name": "keyword.name.IndividualDocumentID",
-          "match": "\\b(IndividualDocumentID)\\b"
+          "match": "(?<=\\bies:)IndividualDocumentID\\b"
         },
         {
           "name": "keyword.name.IndividualDocument",
-          "match": "\\b(IndividualDocument)\\b"
+          "match": "(?<=\\bies:)IndividualDocument\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.EntertainmentEvent",
-          "match": "\\b(EntertainmentEvent)\\b"
+          "match": "(?<=\\bies:)EntertainmentEvent\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.FerryTicket",
-          "match": "\\b(FerryTicket)\\b"
+          "match": "(?<=\\bies:)FerryTicket\\b"
         },
         {
           "name": "keyword.name.TrainTicket",
-          "match": "\\b(TrainTicket)\\b"
+          "match": "(?<=\\bies:)TrainTicket\\b"
         },
         {
           "name": "keyword.name.FlightTicket",
-          "match": "\\b(FlightTicket)\\b"
+          "match": "(?<=\\bies:)FlightTicket\\b"
         },
         {
           "name": "keyword.name.ConcertTicket",
-          "match": "\\b(ConcertTicket)\\b"
+          "match": "(?<=\\bies:)ConcertTicket\\b"
         },
         {
           "name": "keyword.name.FootballMatchTicket",
-          "match": "\\b(FootballMatchTicket)\\b"
+          "match": "(?<=\\bies:)FootballMatchTicket\\b"
         },
         {
           "name": "keyword.name.CinemaTicket",
-          "match": "\\b(CinemaTicket)\\b"
+          "match": "(?<=\\bies:)CinemaTicket\\b"
         },
         {
           "name": "keyword.name.TheatreTicket",
-          "match": "\\b(TheatreTicket)\\b"
+          "match": "(?<=\\bies:)TheatreTicket\\b"
         },
         {
           "name": "keyword.name.Port",
-          "match": "\\b(Port)\\b"
+          "match": "(?<=\\bies:)Port\\b"
         },
         {
           "name": "keyword.name.Facility",
-          "match": "\\b(Facility)\\b"
+          "match": "(?<=\\bies:)Facility\\b"
         },
         {
           "name": "keyword.name.TravelTicket",
-          "match": "\\b(TravelTicket)\\b"
+          "match": "(?<=\\bies:)TravelTicket\\b"
         },
         {
           "name": "keyword.name.EntertainmentTicket",
-          "match": "\\b(EntertainmentTicket)\\b"
+          "match": "(?<=\\bies:)EntertainmentTicket\\b"
         },
         {
           "name": "keyword.name.Ticket",
-          "match": "\\b(Ticket)\\b"
+          "match": "(?<=\\bies:)Ticket\\b"
         },
         {
           "name": "keyword.name.RegionOfCountry",
-          "match": "\\b(RegionOfCountry)\\b"
+          "match": "(?<=\\bies:)RegionOfCountry\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.ClassOfPaymentArtefact",
-          "match": "\\b(ClassOfPaymentArtefact)\\b"
+          "match": "(?<=\\bies:)ClassOfPaymentArtefact\\b"
         },
         {
           "name": "keyword.name.Asset",
-          "match": "\\b(Asset)\\b"
+          "match": "(?<=\\bies:)Asset\\b"
         },
         {
           "name": "keyword.name.CardNumber",
-          "match": "\\b(CardNumber)\\b"
+          "match": "(?<=\\bies:)CardNumber\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.ParticularPeriod",
-          "match": "\\b(ParticularPeriod)\\b"
+          "match": "(?<=\\bies:)ParticularPeriod\\b"
         },
         {
           "name": "keyword.name.Address",
-          "match": "\\b(Address)\\b"
+          "match": "(?<=\\bies:)Address\\b"
         },
         {
           "name": "keyword.name.Country",
-          "match": "\\b(Country)\\b"
+          "match": "(?<=\\bies:)Country\\b"
         },
         {
           "name": "keyword.name.FinancialAccount",
-          "match": "\\b(FinancialAccount)\\b"
+          "match": "(?<=\\bies:)FinancialAccount\\b"
         },
         {
           "name": "keyword.name.DebitCard",
-          "match": "\\b(DebitCard)\\b"
+          "match": "(?<=\\bies:)DebitCard\\b"
         },
         {
           "name": "keyword.name.CreditCard",
-          "match": "\\b(CreditCard)\\b"
+          "match": "(?<=\\bies:)CreditCard\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.TravelCard",
-          "match": "\\b(TravelCard)\\b"
+          "match": "(?<=\\bies:)TravelCard\\b"
         },
         {
           "name": "keyword.name.StoreCard",
-          "match": "\\b(StoreCard)\\b"
+          "match": "(?<=\\bies:)StoreCard\\b"
         },
         {
           "name": "keyword.name.BankCard",
-          "match": "\\b(BankCard)\\b"
+          "match": "(?<=\\bies:)BankCard\\b"
         },
         {
           "name": "keyword.name.PaymentArtefact",
-          "match": "\\b(PaymentArtefact)\\b"
+          "match": "(?<=\\bies:)PaymentArtefact\\b"
         },
         {
           "name": "keyword.name.AssetState",
-          "match": "\\b(AssetState)\\b"
+          "match": "(?<=\\bies:)AssetState\\b"
         },
         {
           "name": "keyword.name.Colour",
-          "match": "\\b(Colour)\\b"
+          "match": "(?<=\\bies:)Colour\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.VehicleIdentificationNumber",
-          "match": "\\b(VehicleIdentificationNumber)\\b"
+          "match": "(?<=\\bies:)VehicleIdentificationNumber\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.Asset",
-          "match": "\\b(Asset)\\b"
+          "match": "(?<=\\bies:)Asset\\b"
         },
         {
           "name": "keyword.name.VehicleState",
-          "match": "\\b(VehicleState)\\b"
+          "match": "(?<=\\bies:)VehicleState\\b"
         },
         {
           "name": "keyword.name.Country",
-          "match": "\\b(Country)\\b"
+          "match": "(?<=\\bies:)Country\\b"
         },
         {
           "name": "keyword.name.VehicleName",
-          "match": "\\b(VehicleName)\\b"
+          "match": "(?<=\\bies:)VehicleName\\b"
         },
         {
           "name": "keyword.name.Ship",
-          "match": "\\b(Ship)\\b"
+          "match": "(?<=\\bies:)Ship\\b"
         },
         {
           "name": "keyword.name.Aircraft",
-          "match": "\\b(Aircraft)\\b"
+          "match": "(?<=\\bies:)Aircraft\\b"
         },
         {
           "name": "keyword.name.RoadVehicle",
-          "match": "\\b(RoadVehicle)\\b"
+          "match": "(?<=\\bies:)RoadVehicle\\b"
         },
         {
           "name": "keyword.name.RegistrationNumber",
-          "match": "\\b(RegistrationNumber)\\b"
+          "match": "(?<=\\bies:)RegistrationNumber\\b"
         },
         {
           "name": "keyword.name.Vehicle",
-          "match": "\\b(Vehicle)\\b"
+          "match": "(?<=\\bies:)Vehicle\\b"
         },
         {
           "name": "keyword.name.Assessor",
-          "match": "\\b(Assessor)\\b"
+          "match": "(?<=\\bies:)Assessor\\b"
         },
         {
           "name": "keyword.name.AssessToBeTrue",
-          "match": "\\b(AssessToBeTrue)\\b"
+          "match": "(?<=\\bies:)AssessToBeTrue\\b"
         },
         {
           "name": "keyword.name.CriminalOrganisation",
-          "match": "\\b(CriminalOrganisation)\\b"
+          "match": "(?<=\\bies:)CriminalOrganisation\\b"
         },
         {
           "name": "keyword.name.LawEnforcementOrganisation",
-          "match": "\\b(LawEnforcementOrganisation)\\b"
+          "match": "(?<=\\bies:)LawEnforcementOrganisation\\b"
         },
         {
           "name": "keyword.name.ActorState",
-          "match": "\\b(ActorState)\\b"
+          "match": "(?<=\\bies:)ActorState\\b"
         },
         {
           "name": "keyword.name.Actor",
-          "match": "\\b(Actor)\\b"
+          "match": "(?<=\\bies:)Actor\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.NamingScheme",
-          "match": "\\b(NamingScheme)\\b"
+          "match": "(?<=\\bies:)NamingScheme\\b"
         },
         {
           "name": "keyword.name.Name",
-          "match": "\\b(Name)\\b"
+          "match": "(?<=\\bies:)Name\\b"
         },
         {
           "name": "keyword.name.OrganisationState",
-          "match": "\\b(OrganisationState)\\b"
+          "match": "(?<=\\bies:)OrganisationState\\b"
         },
         {
           "name": "keyword.name.ISO3166_1Alpha_3",
-          "match": "\\b(ISO3166_1Alpha_3)\\b"
+          "match": "(?<=\\bies:)ISO3166_1Alpha_3\\b"
         },
         {
           "name": "keyword.name.Nation",
-          "match": "\\b(Nation)\\b"
+          "match": "(?<=\\bies:)Nation\\b"
         },
         {
           "name": "keyword.name.RegionalConstituency",
-          "match": "\\b(RegionalConstituency)\\b"
+          "match": "(?<=\\bies:)RegionalConstituency\\b"
         },
         {
           "name": "keyword.name.Government",
-          "match": "\\b(Government)\\b"
+          "match": "(?<=\\bies:)Government\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.EducationalOrganisation",
-          "match": "\\b(EducationalOrganisation)\\b"
+          "match": "(?<=\\bies:)EducationalOrganisation\\b"
         },
         {
           "name": "keyword.name.ReligiousOrganisation",
-          "match": "\\b(ReligiousOrganisation)\\b"
+          "match": "(?<=\\bies:)ReligiousOrganisation\\b"
         },
         {
           "name": "keyword.name.TerroristOrganisation",
-          "match": "\\b(TerroristOrganisation)\\b"
+          "match": "(?<=\\bies:)TerroristOrganisation\\b"
         },
         {
           "name": "keyword.name.MilitaryOrganisation",
-          "match": "\\b(MilitaryOrganisation)\\b"
+          "match": "(?<=\\bies:)MilitaryOrganisation\\b"
         },
         {
           "name": "keyword.name.IntelligenceAgency",
-          "match": "\\b(IntelligenceAgency)\\b"
+          "match": "(?<=\\bies:)IntelligenceAgency\\b"
         },
         {
           "name": "keyword.name.NotForProfitOrganisation",
-          "match": "\\b(NotForProfitOrganisation)\\b"
+          "match": "(?<=\\bies:)NotForProfitOrganisation\\b"
         },
         {
           "name": "keyword.name.CommercialOrganisation",
-          "match": "\\b(CommercialOrganisation)\\b"
+          "match": "(?<=\\bies:)CommercialOrganisation\\b"
         },
         {
           "name": "keyword.name.GovernmentOrganisation",
-          "match": "\\b(GovernmentOrganisation)\\b"
+          "match": "(?<=\\bies:)GovernmentOrganisation\\b"
         },
         {
           "name": "keyword.name.Country",
-          "match": "\\b(Country)\\b"
+          "match": "(?<=\\bies:)Country\\b"
         },
         {
           "name": "keyword.name.OrganisationName",
-          "match": "\\b(OrganisationName)\\b"
+          "match": "(?<=\\bies:)OrganisationName\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.ClassOfTravelVisa",
-          "match": "\\b(ClassOfTravelVisa)\\b"
+          "match": "(?<=\\bies:)ClassOfTravelVisa\\b"
         },
         {
           "name": "keyword.name.Gender",
-          "match": "\\b(Gender)\\b"
+          "match": "(?<=\\bies:)Gender\\b"
         },
         {
           "name": "keyword.name.ParticularPeriod",
-          "match": "\\b(ParticularPeriod)\\b"
+          "match": "(?<=\\bies:)ParticularPeriod\\b"
         },
         {
           "name": "keyword.name.Nation",
-          "match": "\\b(Nation)\\b"
+          "match": "(?<=\\bies:)Nation\\b"
         },
         {
           "name": "keyword.name.IndividualDocumentID",
-          "match": "\\b(IndividualDocumentID)\\b"
+          "match": "(?<=\\bies:)IndividualDocumentID\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.IndividualDocument",
-          "match": "\\b(IndividualDocument)\\b"
+          "match": "(?<=\\bies:)IndividualDocument\\b"
         },
         {
           "name": "keyword.name.Address",
-          "match": "\\b(Address)\\b"
+          "match": "(?<=\\bies:)Address\\b"
         },
         {
           "name": "keyword.name.RegionOfCountry",
-          "match": "\\b(RegionOfCountry)\\b"
+          "match": "(?<=\\bies:)RegionOfCountry\\b"
         },
         {
           "name": "keyword.name.Country",
-          "match": "\\b(Country)\\b"
+          "match": "(?<=\\bies:)Country\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.SocialServicesIdentifier",
-          "match": "\\b(SocialServicesIdentifier)\\b"
+          "match": "(?<=\\bies:)SocialServicesIdentifier\\b"
         },
         {
           "name": "keyword.name.HealthServiceIdentifier",
-          "match": "\\b(HealthServiceIdentifier)\\b"
+          "match": "(?<=\\bies:)HealthServiceIdentifier\\b"
         },
         {
           "name": "keyword.name.TravelVisa",
-          "match": "\\b(TravelVisa)\\b"
+          "match": "(?<=\\bies:)TravelVisa\\b"
         },
         {
           "name": "keyword.name.Passport",
-          "match": "\\b(Passport)\\b"
+          "match": "(?<=\\bies:)Passport\\b"
         },
         {
           "name": "keyword.name.NationalIdentityNumber",
-          "match": "\\b(NationalIdentityNumber)\\b"
+          "match": "(?<=\\bies:)NationalIdentityNumber\\b"
         },
         {
           "name": "keyword.name.NationalIdentityCard",
-          "match": "\\b(NationalIdentityCard)\\b"
+          "match": "(?<=\\bies:)NationalIdentityCard\\b"
         },
         {
           "name": "keyword.name.DrivingLicence",
-          "match": "\\b(DrivingLicence)\\b"
+          "match": "(?<=\\bies:)DrivingLicence\\b"
         },
         {
           "name": "keyword.name.BirthCertificate",
-          "match": "\\b(BirthCertificate)\\b"
+          "match": "(?<=\\bies:)BirthCertificate\\b"
         },
         {
           "name": "keyword.name.IdentityDocument",
-          "match": "\\b(IdentityDocument)\\b"
+          "match": "(?<=\\bies:)IdentityDocument\\b"
         },
         {
           "name": "keyword.name.Country",
-          "match": "\\b(Country)\\b"
-        },
-        {
-          "name": "keyword.name.ISO639-3Code",
-          "match": "\\b(ISO639-3Code)\\b"
+          "match": "(?<=\\bies:)Country\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.Currency",
-          "match": "\\b(Currency)\\b"
+          "match": "(?<=\\bies:)Currency\\b"
         },
         {
           "name": "keyword.name.Asset",
-          "match": "\\b(Asset)\\b"
+          "match": "(?<=\\bies:)Asset\\b"
         },
         {
           "name": "keyword.name.AmountOfMoney",
-          "match": "\\b(AmountOfMoney)\\b"
+          "match": "(?<=\\bies:)AmountOfMoney\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.Actor",
-          "match": "\\b(Actor)\\b"
+          "match": "(?<=\\bies:)Actor\\b"
         },
         {
           "name": "keyword.name.System",
-          "match": "\\b(System)\\b"
+          "match": "(?<=\\bies:)System\\b"
         },
         {
           "name": "keyword.name.Religion",
-          "match": "\\b(Religion)\\b"
+          "match": "(?<=\\bies:)Religion\\b"
         },
         {
           "name": "keyword.name.AmountOfMoney",
-          "match": "\\b(AmountOfMoney)\\b"
+          "match": "(?<=\\bies:)AmountOfMoney\\b"
         },
         {
           "name": "keyword.name.RealEstate",
-          "match": "\\b(RealEstate)\\b"
+          "match": "(?<=\\bies:)RealEstate\\b"
         },
         {
           "name": "keyword.name.Asset",
-          "match": "\\b(Asset)\\b"
+          "match": "(?<=\\bies:)Asset\\b"
         },
         {
           "name": "keyword.name.Device",
-          "match": "\\b(Device)\\b"
+          "match": "(?<=\\bies:)Device\\b"
         },
         {
           "name": "keyword.name.CommunicationsAccount",
-          "match": "\\b(CommunicationsAccount)\\b"
+          "match": "(?<=\\bies:)CommunicationsAccount\\b"
         },
         {
           "name": "keyword.name.Account",
-          "match": "\\b(Account)\\b"
+          "match": "(?<=\\bies:)Account\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.WebResource",
-          "match": "\\b(WebResource)\\b"
+          "match": "(?<=\\bies:)WebResource\\b"
         },
         {
           "name": "keyword.name.Vehicle",
-          "match": "\\b(Vehicle)\\b"
+          "match": "(?<=\\bies:)Vehicle\\b"
         },
         {
           "name": "keyword.name.Ticket",
-          "match": "\\b(Ticket)\\b"
+          "match": "(?<=\\bies:)Ticket\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.PaymentArtefact",
-          "match": "\\b(PaymentArtefact)\\b"
+          "match": "(?<=\\bies:)PaymentArtefact\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.OnlineAccount",
-          "match": "\\b(OnlineAccount)\\b"
+          "match": "(?<=\\bies:)OnlineAccount\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.IdentityDocument",
-          "match": "\\b(IdentityDocument)\\b"
+          "match": "(?<=\\bies:)IdentityDocument\\b"
         },
         {
           "name": "keyword.name.FinancialAccount",
-          "match": "\\b(FinancialAccount)\\b"
+          "match": "(?<=\\bies:)FinancialAccount\\b"
         },
         {
           "name": "keyword.name.IndividualDocument",
-          "match": "\\b(IndividualDocument)\\b"
+          "match": "(?<=\\bies:)IndividualDocument\\b"
         },
         {
           "name": "keyword.name.CommunicationsDevice",
-          "match": "\\b(CommunicationsDevice)\\b"
+          "match": "(?<=\\bies:)CommunicationsDevice\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.ValueInKilograms",
-          "match": "\\b(ValueInKilograms)\\b"
+          "match": "(?<=\\bies:)ValueInKilograms\\b"
         },
         {
           "name": "keyword.name.Mass",
-          "match": "\\b(Mass)\\b"
+          "match": "(?<=\\bies:)Mass\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Nation",
-          "match": "\\b(Nation)\\b"
+          "match": "(?<=\\bies:)Nation\\b"
         },
         {
           "name": "keyword.name.Rights",
-          "match": "\\b(Rights)\\b"
+          "match": "(?<=\\bies:)Rights\\b"
         },
         {
           "name": "keyword.name.Actor",
-          "match": "\\b(Actor)\\b"
+          "match": "(?<=\\bies:)Actor\\b"
         },
         {
           "name": "keyword.name.Colour",
-          "match": "\\b(Colour)\\b"
+          "match": "(?<=\\bies:)Colour\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.RealEstate",
-          "match": "\\b(RealEstate)\\b"
+          "match": "(?<=\\bies:)RealEstate\\b"
         },
         {
           "name": "keyword.name.Device",
-          "match": "\\b(Device)\\b"
+          "match": "(?<=\\bies:)Device\\b"
         },
         {
           "name": "keyword.name.AmountOfMoney",
-          "match": "\\b(AmountOfMoney)\\b"
+          "match": "(?<=\\bies:)AmountOfMoney\\b"
         },
         {
           "name": "keyword.name.Vehicle",
-          "match": "\\b(Vehicle)\\b"
+          "match": "(?<=\\bies:)Vehicle\\b"
         },
         {
           "name": "keyword.name.PaymentArtefact",
-          "match": "\\b(PaymentArtefact)\\b"
+          "match": "(?<=\\bies:)PaymentArtefact\\b"
         },
         {
           "name": "keyword.name.IndividualDocument",
-          "match": "\\b(IndividualDocument)\\b"
+          "match": "(?<=\\bies:)IndividualDocument\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.AssetState",
-          "match": "\\b(AssetState)\\b"
+          "match": "(?<=\\bies:)AssetState\\b"
         },
         {
           "name": "keyword.name.Asset",
-          "match": "\\b(Asset)\\b"
+          "match": "(?<=\\bies:)Asset\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.VoipAccount",
-          "match": "\\b(VoipAccount)\\b"
+          "match": "(?<=\\bies:)VoipAccount\\b"
         },
         {
           "name": "keyword.name.LandlineTelephoneAccount",
-          "match": "\\b(LandlineTelephoneAccount)\\b"
+          "match": "(?<=\\bies:)LandlineTelephoneAccount\\b"
         },
         {
           "name": "keyword.name.MobileTelephoneAccount",
-          "match": "\\b(MobileTelephoneAccount)\\b"
+          "match": "(?<=\\bies:)MobileTelephoneAccount\\b"
         },
         {
           "name": "keyword.name.OnlineAccount",
-          "match": "\\b(OnlineAccount)\\b"
+          "match": "(?<=\\bies:)OnlineAccount\\b"
         },
         {
           "name": "keyword.name.EmailAccount",
-          "match": "\\b(EmailAccount)\\b"
+          "match": "(?<=\\bies:)EmailAccount\\b"
         },
         {
           "name": "keyword.name.TelephoneNumber",
-          "match": "\\b(TelephoneNumber)\\b"
+          "match": "(?<=\\bies:)TelephoneNumber\\b"
         },
         {
           "name": "keyword.name.IMSI",
-          "match": "\\b(IMSI)\\b"
+          "match": "(?<=\\bies:)IMSI\\b"
         },
         {
           "name": "keyword.name.EmailAddress",
-          "match": "\\b(EmailAddress)\\b"
+          "match": "(?<=\\bies:)EmailAddress\\b"
         },
         {
           "name": "keyword.name.TelephoneAccount",
-          "match": "\\b(TelephoneAccount)\\b"
+          "match": "(?<=\\bies:)TelephoneAccount\\b"
         },
         {
           "name": "keyword.name.AccountHolder",
-          "match": "\\b(AccountHolder)\\b"
+          "match": "(?<=\\bies:)AccountHolder\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.PersonState",
-          "match": "\\b(PersonState)\\b"
+          "match": "(?<=\\bies:)PersonState\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.CommunicationsAccountState",
-          "match": "\\b(CommunicationsAccountState)\\b"
+          "match": "(?<=\\bies:)CommunicationsAccountState\\b"
         },
         {
           "name": "keyword.name.CommunicationsAccount",
-          "match": "\\b(CommunicationsAccount)\\b"
+          "match": "(?<=\\bies:)CommunicationsAccount\\b"
         },
         {
           "name": "keyword.name.AccountState",
-          "match": "\\b(AccountState)\\b"
+          "match": "(?<=\\bies:)AccountState\\b"
         },
         {
           "name": "keyword.name.Account",
-          "match": "\\b(Account)\\b"
+          "match": "(?<=\\bies:)Account\\b"
         },
         {
           "name": "keyword.name.CustomerIdentifier",
-          "match": "\\b(CustomerIdentifier)\\b"
+          "match": "(?<=\\bies:)CustomerIdentifier\\b"
         },
         {
           "name": "keyword.name.AccountNumber",
-          "match": "\\b(AccountNumber)\\b"
+          "match": "(?<=\\bies:)AccountNumber\\b"
         },
         {
           "name": "keyword.name.DeviceState",
-          "match": "\\b(DeviceState)\\b"
+          "match": "(?<=\\bies:)DeviceState\\b"
         },
         {
           "name": "keyword.name.Name",
-          "match": "\\b(Name)\\b"
+          "match": "(?<=\\bies:)Name\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.Representation",
-          "match": "\\b(Representation)\\b"
+          "match": "(?<=\\bies:)Representation\\b"
         },
         {
           "name": "keyword.name.CommunicationsIdentifier",
-          "match": "\\b(CommunicationsIdentifier)\\b"
+          "match": "(?<=\\bies:)CommunicationsIdentifier\\b"
         },
         {
           "name": "keyword.name.ActorState",
-          "match": "\\b(ActorState)\\b"
+          "match": "(?<=\\bies:)ActorState\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.OrganisationalRole",
-          "match": "\\b(OrganisationalRole)\\b"
+          "match": "(?<=\\bies:)OrganisationalRole\\b"
         },
         {
           "name": "keyword.name.Role",
-          "match": "\\b(Role)\\b"
+          "match": "(?<=\\bies:)Role\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.PostState",
-          "match": "\\b(PostState)\\b"
+          "match": "(?<=\\bies:)PostState\\b"
         },
         {
           "name": "keyword.name.InPost",
-          "match": "\\b(InPost)\\b"
+          "match": "(?<=\\bies:)InPost\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.Post",
-          "match": "\\b(Post)\\b"
+          "match": "(?<=\\bies:)Post\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.TravelReservation",
-          "match": "\\b(TravelReservation)\\b"
+          "match": "(?<=\\bies:)TravelReservation\\b"
         },
         {
           "name": "keyword.name.Purchase",
-          "match": "\\b(Purchase)\\b"
+          "match": "(?<=\\bies:)Purchase\\b"
         },
         {
           "name": "keyword.name.TradedAsset",
-          "match": "\\b(TradedAsset)\\b"
+          "match": "(?<=\\bies:)TradedAsset\\b"
         },
         {
           "name": "keyword.name.TradeEvent",
-          "match": "\\b(TradeEvent)\\b"
+          "match": "(?<=\\bies:)TradeEvent\\b"
         },
         {
           "name": "keyword.name.Reservation",
-          "match": "\\b(Reservation)\\b"
+          "match": "(?<=\\bies:)Reservation\\b"
         },
         {
           "name": "keyword.name.Asset",
-          "match": "\\b(Asset)\\b"
+          "match": "(?<=\\bies:)Asset\\b"
         },
         {
           "name": "keyword.name.Rights",
-          "match": "\\b(Rights)\\b"
+          "match": "(?<=\\bies:)Rights\\b"
         },
         {
           "name": "keyword.name.ClassOfTravelBooking",
-          "match": "\\b(ClassOfTravelBooking)\\b"
+          "match": "(?<=\\bies:)ClassOfTravelBooking\\b"
         },
         {
           "name": "keyword.name.BookingReference",
-          "match": "\\b(BookingReference)\\b"
+          "match": "(?<=\\bies:)BookingReference\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.BookedPassenger",
-          "match": "\\b(BookedPassenger)\\b"
+          "match": "(?<=\\bies:)BookedPassenger\\b"
         },
         {
           "name": "keyword.name.BookingPayment",
-          "match": "\\b(BookingPayment)\\b"
+          "match": "(?<=\\bies:)BookingPayment\\b"
         },
         {
           "name": "keyword.name.AmountOfMoney",
-          "match": "\\b(AmountOfMoney)\\b"
+          "match": "(?<=\\bies:)AmountOfMoney\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.BookingAgent",
-          "match": "\\b(BookingAgent)\\b"
+          "match": "(?<=\\bies:)BookingAgent\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.TravelBooking",
-          "match": "\\b(TravelBooking)\\b"
+          "match": "(?<=\\bies:)TravelBooking\\b"
         },
         {
           "name": "keyword.name.BoardingCardNumber",
-          "match": "\\b(BoardingCardNumber)\\b"
+          "match": "(?<=\\bies:)BoardingCardNumber\\b"
         },
         {
           "name": "keyword.name.SeatNumber",
-          "match": "\\b(SeatNumber)\\b"
+          "match": "(?<=\\bies:)SeatNumber\\b"
         },
         {
           "name": "keyword.name.PassengerName",
-          "match": "\\b(PassengerName)\\b"
+          "match": "(?<=\\bies:)PassengerName\\b"
         },
         {
           "name": "keyword.name.TravelServiceIdentifier",
-          "match": "\\b(TravelServiceIdentifier)\\b"
+          "match": "(?<=\\bies:)TravelServiceIdentifier\\b"
         },
         {
           "name": "keyword.name.CheckIn",
-          "match": "\\b(CheckIn)\\b"
+          "match": "(?<=\\bies:)CheckIn\\b"
         },
         {
           "name": "keyword.name.IdUsedInCheckIn",
-          "match": "\\b(IdUsedInCheckIn)\\b"
+          "match": "(?<=\\bies:)IdUsedInCheckIn\\b"
         },
         {
           "name": "keyword.name.IdentityDocument",
-          "match": "\\b(IdentityDocument)\\b"
+          "match": "(?<=\\bies:)IdentityDocument\\b"
         },
         {
           "name": "keyword.name.OnJourney",
-          "match": "\\b(OnJourney)\\b"
+          "match": "(?<=\\bies:)OnJourney\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.EntityInTransit",
-          "match": "\\b(EntityInTransit)\\b"
+          "match": "(?<=\\bies:)EntityInTransit\\b"
         },
         {
           "name": "keyword.name.Ship",
-          "match": "\\b(Ship)\\b"
+          "match": "(?<=\\bies:)Ship\\b"
         },
         {
           "name": "keyword.name.Aircraft",
-          "match": "\\b(Aircraft)\\b"
+          "match": "(?<=\\bies:)Aircraft\\b"
         },
         {
           "name": "keyword.name.RoadVehicle",
-          "match": "\\b(RoadVehicle)\\b"
+          "match": "(?<=\\bies:)RoadVehicle\\b"
         },
         {
           "name": "keyword.name.VehicleUsed",
-          "match": "\\b(VehicleUsed)\\b"
+          "match": "(?<=\\bies:)VehicleUsed\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.Vehicle",
-          "match": "\\b(Vehicle)\\b"
+          "match": "(?<=\\bies:)Vehicle\\b"
         },
         {
           "name": "keyword.name.VehicleController",
-          "match": "\\b(VehicleController)\\b"
+          "match": "(?<=\\bies:)VehicleController\\b"
         },
         {
           "name": "keyword.name.PersonInTransit",
-          "match": "\\b(PersonInTransit)\\b"
+          "match": "(?<=\\bies:)PersonInTransit\\b"
         },
         {
           "name": "keyword.name.CarTravel",
-          "match": "\\b(CarTravel)\\b"
+          "match": "(?<=\\bies:)CarTravel\\b"
         },
         {
           "name": "keyword.name.Airport",
-          "match": "\\b(Airport)\\b"
+          "match": "(?<=\\bies:)Airport\\b"
         },
         {
           "name": "keyword.name.Moving",
-          "match": "\\b(Moving)\\b"
+          "match": "(?<=\\bies:)Moving\\b"
         },
         {
           "name": "keyword.name.Movement",
-          "match": "\\b(Movement)\\b"
+          "match": "(?<=\\bies:)Movement\\b"
         },
         {
           "name": "keyword.name.Passenger",
-          "match": "\\b(Passenger)\\b"
+          "match": "(?<=\\bies:)Passenger\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.TravelLeg",
-          "match": "\\b(TravelLeg)\\b"
+          "match": "(?<=\\bies:)TravelLeg\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Transit",
-          "match": "\\b(Transit)\\b"
+          "match": "(?<=\\bies:)Transit\\b"
         },
         {
           "name": "keyword.name.Departure",
-          "match": "\\b(Departure)\\b"
+          "match": "(?<=\\bies:)Departure\\b"
         },
         {
           "name": "keyword.name.Arrival",
-          "match": "\\b(Arrival)\\b"
+          "match": "(?<=\\bies:)Arrival\\b"
         },
         {
           "name": "keyword.name.BoundingState",
-          "match": "\\b(BoundingState)\\b"
+          "match": "(?<=\\bies:)BoundingState\\b"
         },
         {
           "name": "keyword.name.Facility",
-          "match": "\\b(Facility)\\b"
+          "match": "(?<=\\bies:)Facility\\b"
         },
         {
           "name": "keyword.name.Journey",
-          "match": "\\b(Journey)\\b"
+          "match": "(?<=\\bies:)Journey\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.Port",
-          "match": "\\b(Port)\\b"
+          "match": "(?<=\\bies:)Port\\b"
         },
         {
           "name": "keyword.name.TrainTravel",
-          "match": "\\b(TrainTravel)\\b"
+          "match": "(?<=\\bies:)TrainTravel\\b"
         },
         {
           "name": "keyword.name.Sailing",
-          "match": "\\b(Sailing)\\b"
+          "match": "(?<=\\bies:)Sailing\\b"
         },
         {
           "name": "keyword.name.Flight",
-          "match": "\\b(Flight)\\b"
+          "match": "(?<=\\bies:)Flight\\b"
         },
         {
           "name": "keyword.name.TravelService",
-          "match": "\\b(TravelService)\\b"
+          "match": "(?<=\\bies:)TravelService\\b"
         },
         {
           "name": "keyword.name.ClassOfMoneyTransfer",
-          "match": "\\b(ClassOfMoneyTransfer)\\b"
+          "match": "(?<=\\bies:)ClassOfMoneyTransfer\\b"
         },
         {
           "name": "keyword.name.BankBranch",
-          "match": "\\b(BankBranch)\\b"
+          "match": "(?<=\\bies:)BankBranch\\b"
         },
         {
           "name": "keyword.name.AccountHolder",
-          "match": "\\b(AccountHolder)\\b"
+          "match": "(?<=\\bies:)AccountHolder\\b"
         },
         {
           "name": "keyword.name.AmountOfMoney",
-          "match": "\\b(AmountOfMoney)\\b"
+          "match": "(?<=\\bies:)AmountOfMoney\\b"
         },
         {
           "name": "keyword.name.Account",
-          "match": "\\b(Account)\\b"
+          "match": "(?<=\\bies:)Account\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.AdministeredAccount",
-          "match": "\\b(AdministeredAccount)\\b"
+          "match": "(?<=\\bies:)AdministeredAccount\\b"
         },
         {
           "name": "keyword.name.ReceivingAccount",
-          "match": "\\b(ReceivingAccount)\\b"
+          "match": "(?<=\\bies:)ReceivingAccount\\b"
         },
         {
           "name": "keyword.name.SendingAccount",
-          "match": "\\b(SendingAccount)\\b"
+          "match": "(?<=\\bies:)SendingAccount\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.MoneyTransfer",
-          "match": "\\b(MoneyTransfer)\\b"
+          "match": "(?<=\\bies:)MoneyTransfer\\b"
         },
         {
           "name": "keyword.name.FinancialAccount",
-          "match": "\\b(FinancialAccount)\\b"
+          "match": "(?<=\\bies:)FinancialAccount\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.UpdateAccount",
-          "match": "\\b(UpdateAccount)\\b"
+          "match": "(?<=\\bies:)UpdateAccount\\b"
         },
         {
           "name": "keyword.name.CloseAccount",
-          "match": "\\b(CloseAccount)\\b"
+          "match": "(?<=\\bies:)CloseAccount\\b"
         },
         {
           "name": "keyword.name.OpenAccount",
-          "match": "\\b(OpenAccount)\\b"
+          "match": "(?<=\\bies:)OpenAccount\\b"
         },
         {
           "name": "keyword.name.AccountAdminEvent",
-          "match": "\\b(AccountAdminEvent)\\b"
+          "match": "(?<=\\bies:)AccountAdminEvent\\b"
         },
         {
           "name": "keyword.name.BusinessEvent",
-          "match": "\\b(BusinessEvent)\\b"
+          "match": "(?<=\\bies:)BusinessEvent\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.PersonState",
-          "match": "\\b(PersonState)\\b"
+          "match": "(?<=\\bies:)PersonState\\b"
         },
         {
           "name": "keyword.name.PersonInCommunication",
-          "match": "\\b(PersonInCommunication)\\b"
+          "match": "(?<=\\bies:)PersonInCommunication\\b"
         },
         {
           "name": "keyword.name.PartyInCommunication",
-          "match": "\\b(PartyInCommunication)\\b"
+          "match": "(?<=\\bies:)PartyInCommunication\\b"
         },
         {
           "name": "keyword.name.OnlineAccount",
-          "match": "\\b(OnlineAccount)\\b"
+          "match": "(?<=\\bies:)OnlineAccount\\b"
         },
         {
           "name": "keyword.name.Account",
-          "match": "\\b(Account)\\b"
+          "match": "(?<=\\bies:)Account\\b"
         },
         {
           "name": "keyword.name.AccountInCommunication",
-          "match": "\\b(AccountInCommunication)\\b"
+          "match": "(?<=\\bies:)AccountInCommunication\\b"
         },
         {
           "name": "keyword.name.CommunicationsAccountState",
-          "match": "\\b(CommunicationsAccountState)\\b"
+          "match": "(?<=\\bies:)CommunicationsAccountState\\b"
         },
         {
           "name": "keyword.name.CommunicationsAccount",
-          "match": "\\b(CommunicationsAccount)\\b"
+          "match": "(?<=\\bies:)CommunicationsAccount\\b"
         },
         {
           "name": "keyword.name.CommunicationsDevice",
-          "match": "\\b(CommunicationsDevice)\\b"
+          "match": "(?<=\\bies:)CommunicationsDevice\\b"
         },
         {
           "name": "keyword.name.DeviceInCommunication",
-          "match": "\\b(DeviceInCommunication)\\b"
+          "match": "(?<=\\bies:)DeviceInCommunication\\b"
         },
         {
           "name": "keyword.name.Device",
-          "match": "\\b(Device)\\b"
+          "match": "(?<=\\bies:)Device\\b"
         },
         {
           "name": "keyword.name.DeviceState",
-          "match": "\\b(DeviceState)\\b"
+          "match": "(?<=\\bies:)DeviceState\\b"
         },
         {
           "name": "keyword.name.ConferenceHost",
-          "match": "\\b(ConferenceHost)\\b"
+          "match": "(?<=\\bies:)ConferenceHost\\b"
         },
         {
           "name": "keyword.name.ServiceProvider",
-          "match": "\\b(ServiceProvider)\\b"
+          "match": "(?<=\\bies:)ServiceProvider\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.ConferenceParticipant",
-          "match": "\\b(ConferenceParticipant)\\b"
+          "match": "(?<=\\bies:)ConferenceParticipant\\b"
         },
         {
           "name": "keyword.name.VideoConference",
-          "match": "\\b(VideoConference)\\b"
+          "match": "(?<=\\bies:)VideoConference\\b"
         },
         {
           "name": "keyword.name.TeleConference",
-          "match": "\\b(TeleConference)\\b"
+          "match": "(?<=\\bies:)TeleConference\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.Callee",
-          "match": "\\b(Callee)\\b"
+          "match": "(?<=\\bies:)Callee\\b"
         },
         {
           "name": "keyword.name.Caller",
-          "match": "\\b(Caller)\\b"
+          "match": "(?<=\\bies:)Caller\\b"
         },
         {
           "name": "keyword.name.Recipient",
-          "match": "\\b(Recipient)\\b"
+          "match": "(?<=\\bies:)Recipient\\b"
         },
         {
           "name": "keyword.name.Sender",
-          "match": "\\b(Sender)\\b"
+          "match": "(?<=\\bies:)Sender\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.CommunicationsIdentifier",
-          "match": "\\b(CommunicationsIdentifier)\\b"
+          "match": "(?<=\\bies:)CommunicationsIdentifier\\b"
         },
         {
           "name": "keyword.name.VoiceCall",
-          "match": "\\b(VoiceCall)\\b"
+          "match": "(?<=\\bies:)VoiceCall\\b"
         },
         {
           "name": "keyword.name.InteractiveCommunication",
-          "match": "\\b(InteractiveCommunication)\\b"
+          "match": "(?<=\\bies:)InteractiveCommunication\\b"
         },
         {
           "name": "keyword.name.SMS",
-          "match": "\\b(SMS)\\b"
+          "match": "(?<=\\bies:)SMS\\b"
         },
         {
           "name": "keyword.name.Message",
-          "match": "\\b(Message)\\b"
+          "match": "(?<=\\bies:)Message\\b"
         },
         {
           "name": "keyword.name.Communication",
-          "match": "\\b(Communication)\\b"
+          "match": "(?<=\\bies:)Communication\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.BoundingState",
-          "match": "\\b(BoundingState)\\b"
+          "match": "(?<=\\bies:)BoundingState\\b"
         },
         {
           "name": "keyword.name.Modifier",
-          "match": "\\b(Modifier)\\b"
+          "match": "(?<=\\bies:)Modifier\\b"
         },
         {
           "name": "keyword.name.Destroyer",
-          "match": "\\b(Destroyer)\\b"
+          "match": "(?<=\\bies:)Destroyer\\b"
         },
         {
           "name": "keyword.name.Creator",
-          "match": "\\b(Creator)\\b"
+          "match": "(?<=\\bies:)Creator\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.Destroyed",
-          "match": "\\b(Destroyed)\\b"
+          "match": "(?<=\\bies:)Destroyed\\b"
         },
         {
           "name": "keyword.name.Created",
-          "match": "\\b(Created)\\b"
+          "match": "(?<=\\bies:)Created\\b"
         },
         {
           "name": "keyword.name.Customer",
-          "match": "\\b(Customer)\\b"
+          "match": "(?<=\\bies:)Customer\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.ActiveEventParticipant",
-          "match": "\\b(ActiveEventParticipant)\\b"
+          "match": "(?<=\\bies:)ActiveEventParticipant\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Forgery",
-          "match": "\\b(Forgery)\\b"
+          "match": "(?<=\\bies:)Forgery\\b"
         },
         {
           "name": "keyword.name.FoundOrganisation",
-          "match": "\\b(FoundOrganisation)\\b"
+          "match": "(?<=\\bies:)FoundOrganisation\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.Destroy",
-          "match": "\\b(Destroy)\\b"
+          "match": "(?<=\\bies:)Destroy\\b"
         },
         {
           "name": "keyword.name.Modify",
-          "match": "\\b(Modify)\\b"
+          "match": "(?<=\\bies:)Modify\\b"
         },
         {
           "name": "keyword.name.Create",
-          "match": "\\b(Create)\\b"
+          "match": "(?<=\\bies:)Create\\b"
         },
         {
           "name": "keyword.name.LifecycleEvent",
-          "match": "\\b(LifecycleEvent)\\b"
+          "match": "(?<=\\bies:)LifecycleEvent\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.EndToEndActivity",
-          "match": "\\b(EndToEndActivity)\\b"
+          "match": "(?<=\\bies:)EndToEndActivity\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.ActiveEventParticipant",
-          "match": "\\b(ActiveEventParticipant)\\b"
+          "match": "(?<=\\bies:)ActiveEventParticipant\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.EventState",
-          "match": "\\b(EventState)\\b"
+          "match": "(?<=\\bies:)EventState\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.LeadInvestigator",
-          "match": "\\b(LeadInvestigator)\\b"
+          "match": "(?<=\\bies:)LeadInvestigator\\b"
         },
         {
           "name": "keyword.name.Investigator",
-          "match": "\\b(Investigator)\\b"
+          "match": "(?<=\\bies:)Investigator\\b"
         },
         {
           "name": "keyword.name.Operator",
-          "match": "\\b(Operator)\\b"
+          "match": "(?<=\\bies:)Operator\\b"
         },
         {
           "name": "keyword.name.EndToEndActivity",
-          "match": "\\b(EndToEndActivity)\\b"
+          "match": "(?<=\\bies:)EndToEndActivity\\b"
         },
         {
           "name": "keyword.name.SubjectOfOperation",
-          "match": "\\b(SubjectOfOperation)\\b"
+          "match": "(?<=\\bies:)SubjectOfOperation\\b"
         },
         {
           "name": "keyword.name.Reconnaisance",
-          "match": "\\b(Reconnaisance)\\b"
+          "match": "(?<=\\bies:)Reconnaisance\\b"
         },
         {
           "name": "keyword.name.MilitaryEvent",
-          "match": "\\b(MilitaryEvent)\\b"
+          "match": "(?<=\\bies:)MilitaryEvent\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.Investigation",
-          "match": "\\b(Investigation)\\b"
+          "match": "(?<=\\bies:)Investigation\\b"
         },
         {
           "name": "keyword.name.SurveillanceWarrant",
-          "match": "\\b(SurveillanceWarrant)\\b"
+          "match": "(?<=\\bies:)SurveillanceWarrant\\b"
         },
         {
           "name": "keyword.name.EvidentialPhotograph",
-          "match": "\\b(EvidentialPhotograph)\\b"
+          "match": "(?<=\\bies:)EvidentialPhotograph\\b"
         },
         {
           "name": "keyword.name.IndividualDocument",
-          "match": "\\b(IndividualDocument)\\b"
+          "match": "(?<=\\bies:)IndividualDocument\\b"
         },
         {
           "name": "keyword.name.Surveillance",
-          "match": "\\b(Surveillance)\\b"
+          "match": "(?<=\\bies:)Surveillance\\b"
         },
         {
           "name": "keyword.name.IntelligenceOperation",
-          "match": "\\b(IntelligenceOperation)\\b"
+          "match": "(?<=\\bies:)IntelligenceOperation\\b"
         },
         {
           "name": "keyword.name.OperationalEvent",
-          "match": "\\b(OperationalEvent)\\b"
+          "match": "(?<=\\bies:)OperationalEvent\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.ActiveEventParticipant",
-          "match": "\\b(ActiveEventParticipant)\\b"
+          "match": "(?<=\\bies:)ActiveEventParticipant\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.PeaceTreaty",
-          "match": "\\b(PeaceTreaty)\\b"
+          "match": "(?<=\\bies:)PeaceTreaty\\b"
         },
         {
           "name": "keyword.name.Treaty",
-          "match": "\\b(Treaty)\\b"
+          "match": "(?<=\\bies:)Treaty\\b"
         },
         {
           "name": "keyword.name.EndToEndAgreement",
-          "match": "\\b(EndToEndAgreement)\\b"
+          "match": "(?<=\\bies:)EndToEndAgreement\\b"
         },
         {
           "name": "keyword.name.EndToEndActivity",
-          "match": "\\b(EndToEndActivity)\\b"
+          "match": "(?<=\\bies:)EndToEndActivity\\b"
         },
         {
           "name": "keyword.name.ObserverStatus",
-          "match": "\\b(ObserverStatus)\\b"
+          "match": "(?<=\\bies:)ObserverStatus\\b"
         },
         {
           "name": "keyword.name.VotingAttendee",
-          "match": "\\b(VotingAttendee)\\b"
+          "match": "(?<=\\bies:)VotingAttendee\\b"
         },
         {
           "name": "keyword.name.Summit",
-          "match": "\\b(Summit)\\b"
+          "match": "(?<=\\bies:)Summit\\b"
         },
         {
           "name": "keyword.name.IncumbentRepresentative",
-          "match": "\\b(IncumbentRepresentative)\\b"
+          "match": "(?<=\\bies:)IncumbentRepresentative\\b"
         },
         {
           "name": "keyword.name.WinningCandidate",
-          "match": "\\b(WinningCandidate)\\b"
+          "match": "(?<=\\bies:)WinningCandidate\\b"
         },
         {
           "name": "keyword.name.ElectoralRegion",
-          "match": "\\b(ElectoralRegion)\\b"
+          "match": "(?<=\\bies:)ElectoralRegion\\b"
         },
         {
           "name": "keyword.name.ElectoralCandidate",
-          "match": "\\b(ElectoralCandidate)\\b"
+          "match": "(?<=\\bies:)ElectoralCandidate\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.Election",
-          "match": "\\b(Election)\\b"
+          "match": "(?<=\\bies:)Election\\b"
         },
         {
           "name": "keyword.name.IncomingGovernment",
-          "match": "\\b(IncomingGovernment)\\b"
+          "match": "(?<=\\bies:)IncomingGovernment\\b"
         },
         {
           "name": "keyword.name.OutgoingGovernment",
-          "match": "\\b(OutgoingGovernment)\\b"
+          "match": "(?<=\\bies:)OutgoingGovernment\\b"
         },
         {
           "name": "keyword.name.Government",
-          "match": "\\b(Government)\\b"
+          "match": "(?<=\\bies:)Government\\b"
         },
         {
           "name": "keyword.name.DemocraticChangeOfGovernment",
-          "match": "\\b(DemocraticChangeOfGovernment)\\b"
+          "match": "(?<=\\bies:)DemocraticChangeOfGovernment\\b"
         },
         {
           "name": "keyword.name.ChangeOfGovernment",
-          "match": "\\b(ChangeOfGovernment)\\b"
+          "match": "(?<=\\bies:)ChangeOfGovernment\\b"
         },
         {
           "name": "keyword.name.DeclaredTarget",
-          "match": "\\b(DeclaredTarget)\\b"
+          "match": "(?<=\\bies:)DeclaredTarget\\b"
         },
         {
           "name": "keyword.name.DeclaringParty",
-          "match": "\\b(DeclaringParty)\\b"
+          "match": "(?<=\\bies:)DeclaringParty\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.RegionalConstituency",
-          "match": "\\b(RegionalConstituency)\\b"
+          "match": "(?<=\\bies:)RegionalConstituency\\b"
         },
         {
           "name": "keyword.name.Nation",
-          "match": "\\b(Nation)\\b"
+          "match": "(?<=\\bies:)Nation\\b"
         },
         {
           "name": "keyword.name.PolicyAnnouncement",
-          "match": "\\b(PolicyAnnouncement)\\b"
+          "match": "(?<=\\bies:)PolicyAnnouncement\\b"
         },
         {
           "name": "keyword.name.DeclarationOfWar",
-          "match": "\\b(DeclarationOfWar)\\b"
+          "match": "(?<=\\bies:)DeclarationOfWar\\b"
         },
         {
           "name": "keyword.name.PoliticalAnnouncement",
-          "match": "\\b(PoliticalAnnouncement)\\b"
+          "match": "(?<=\\bies:)PoliticalAnnouncement\\b"
         },
         {
           "name": "keyword.name.TradeAgreement",
-          "match": "\\b(TradeAgreement)\\b"
+          "match": "(?<=\\bies:)TradeAgreement\\b"
         },
         {
           "name": "keyword.name.PoliticalAgreement",
-          "match": "\\b(PoliticalAgreement)\\b"
+          "match": "(?<=\\bies:)PoliticalAgreement\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.PoliticalEvent",
-          "match": "\\b(PoliticalEvent)\\b"
+          "match": "(?<=\\bies:)PoliticalEvent\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Purchase",
-          "match": "\\b(Purchase)\\b"
+          "match": "(?<=\\bies:)Purchase\\b"
         },
         {
           "name": "keyword.name.PartyInCommunication",
-          "match": "\\b(PartyInCommunication)\\b"
+          "match": "(?<=\\bies:)PartyInCommunication\\b"
         },
         {
           "name": "keyword.name.Cooperation",
-          "match": "\\b(Cooperation)\\b"
+          "match": "(?<=\\bies:)Cooperation\\b"
         },
         {
           "name": "keyword.name.Competition",
-          "match": "\\b(Competition)\\b"
+          "match": "(?<=\\bies:)Competition\\b"
         },
         {
           "name": "keyword.name.EndToEndActivity",
-          "match": "\\b(EndToEndActivity)\\b"
+          "match": "(?<=\\bies:)EndToEndActivity\\b"
         },
         {
           "name": "keyword.name.CheckIn",
-          "match": "\\b(CheckIn)\\b"
+          "match": "(?<=\\bies:)CheckIn\\b"
         },
         {
           "name": "keyword.name.Disagreement",
-          "match": "\\b(Disagreement)\\b"
+          "match": "(?<=\\bies:)Disagreement\\b"
         },
         {
           "name": "keyword.name.AgreementStage",
-          "match": "\\b(AgreementStage)\\b"
+          "match": "(?<=\\bies:)AgreementStage\\b"
         },
         {
           "name": "keyword.name.Movement",
-          "match": "\\b(Movement)\\b"
+          "match": "(?<=\\bies:)Movement\\b"
         },
         {
           "name": "keyword.name.TradeEvent",
-          "match": "\\b(TradeEvent)\\b"
+          "match": "(?<=\\bies:)TradeEvent\\b"
         },
         {
           "name": "keyword.name.CoLocation",
-          "match": "\\b(CoLocation)\\b"
+          "match": "(?<=\\bies:)CoLocation\\b"
         },
         {
           "name": "keyword.name.EntertainmentEvent",
-          "match": "\\b(EntertainmentEvent)\\b"
+          "match": "(?<=\\bies:)EntertainmentEvent\\b"
         },
         {
           "name": "keyword.name.OnlineEvent",
-          "match": "\\b(OnlineEvent)\\b"
+          "match": "(?<=\\bies:)OnlineEvent\\b"
         },
         {
           "name": "keyword.name.PoliticalEvent",
-          "match": "\\b(PoliticalEvent)\\b"
+          "match": "(?<=\\bies:)PoliticalEvent\\b"
         },
         {
           "name": "keyword.name.LawEnforcement",
-          "match": "\\b(LawEnforcement)\\b"
+          "match": "(?<=\\bies:)LawEnforcement\\b"
         },
         {
           "name": "keyword.name.CriminalActivity",
-          "match": "\\b(CriminalActivity)\\b"
+          "match": "(?<=\\bies:)CriminalActivity\\b"
         },
         {
           "name": "keyword.name.OperationalEvent",
-          "match": "\\b(OperationalEvent)\\b"
+          "match": "(?<=\\bies:)OperationalEvent\\b"
         },
         {
           "name": "keyword.name.LifecycleEvent",
-          "match": "\\b(LifecycleEvent)\\b"
+          "match": "(?<=\\bies:)LifecycleEvent\\b"
         },
         {
           "name": "keyword.name.Communication",
-          "match": "\\b(Communication)\\b"
+          "match": "(?<=\\bies:)Communication\\b"
         },
         {
           "name": "keyword.name.BusinessEvent",
-          "match": "\\b(BusinessEvent)\\b"
+          "match": "(?<=\\bies:)BusinessEvent\\b"
         },
         {
           "name": "keyword.name.TravelService",
-          "match": "\\b(TravelService)\\b"
+          "match": "(?<=\\bies:)TravelService\\b"
         },
         {
           "name": "keyword.name.TravelBooking",
-          "match": "\\b(TravelBooking)\\b"
+          "match": "(?<=\\bies:)TravelBooking\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Message",
-          "match": "\\b(Message)\\b"
+          "match": "(?<=\\bies:)Message\\b"
         },
         {
           "name": "keyword.name.OnlineArtefactInEvent",
-          "match": "\\b(OnlineArtefactInEvent)\\b"
+          "match": "(?<=\\bies:)OnlineArtefactInEvent\\b"
         },
         {
           "name": "keyword.name.Device",
-          "match": "\\b(Device)\\b"
+          "match": "(?<=\\bies:)Device\\b"
         },
         {
           "name": "keyword.name.DeviceOnline",
-          "match": "\\b(DeviceOnline)\\b"
+          "match": "(?<=\\bies:)DeviceOnline\\b"
         },
         {
           "name": "keyword.name.CreatedContent",
-          "match": "\\b(CreatedContent)\\b"
+          "match": "(?<=\\bies:)CreatedContent\\b"
         },
         {
           "name": "keyword.name.LiveCast",
-          "match": "\\b(LiveCast)\\b"
+          "match": "(?<=\\bies:)LiveCast\\b"
         },
         {
           "name": "keyword.name.OnlineLike",
-          "match": "\\b(OnlineLike)\\b"
+          "match": "(?<=\\bies:)OnlineLike\\b"
         },
         {
           "name": "keyword.name.OnlineComment",
-          "match": "\\b(OnlineComment)\\b"
+          "match": "(?<=\\bies:)OnlineComment\\b"
         },
         {
           "name": "keyword.name.SocialMediaPost",
-          "match": "\\b(SocialMediaPost)\\b"
+          "match": "(?<=\\bies:)SocialMediaPost\\b"
         },
         {
           "name": "keyword.name.SocialMediaPage",
-          "match": "\\b(SocialMediaPage)\\b"
+          "match": "(?<=\\bies:)SocialMediaPage\\b"
         },
         {
           "name": "keyword.name.OnlineArtefact",
-          "match": "\\b(OnlineArtefact)\\b"
+          "match": "(?<=\\bies:)OnlineArtefact\\b"
         },
         {
           "name": "keyword.name.Created",
-          "match": "\\b(Created)\\b"
+          "match": "(?<=\\bies:)Created\\b"
         },
         {
           "name": "keyword.name.Webpage",
-          "match": "\\b(Webpage)\\b"
+          "match": "(?<=\\bies:)Webpage\\b"
         },
         {
           "name": "keyword.name.Create",
-          "match": "\\b(Create)\\b"
+          "match": "(?<=\\bies:)Create\\b"
         },
         {
           "name": "keyword.name.LifecycleEvent",
-          "match": "\\b(LifecycleEvent)\\b"
+          "match": "(?<=\\bies:)LifecycleEvent\\b"
         },
         {
           "name": "keyword.name.OnlineContentEvent",
-          "match": "\\b(OnlineContentEvent)\\b"
+          "match": "(?<=\\bies:)OnlineContentEvent\\b"
         },
         {
           "name": "keyword.name.Logoff",
-          "match": "\\b(Logoff)\\b"
+          "match": "(?<=\\bies:)Logoff\\b"
         },
         {
           "name": "keyword.name.OnlineContentCreation",
-          "match": "\\b(OnlineContentCreation)\\b"
+          "match": "(?<=\\bies:)OnlineContentCreation\\b"
         },
         {
           "name": "keyword.name.DiscontinuousState",
-          "match": "\\b(DiscontinuousState)\\b"
+          "match": "(?<=\\bies:)DiscontinuousState\\b"
         },
         {
           "name": "keyword.name.PersonState",
-          "match": "\\b(PersonState)\\b"
+          "match": "(?<=\\bies:)PersonState\\b"
         },
         {
           "name": "keyword.name.Account",
-          "match": "\\b(Account)\\b"
+          "match": "(?<=\\bies:)Account\\b"
         },
         {
           "name": "keyword.name.ActiveEventParticipant",
-          "match": "\\b(ActiveEventParticipant)\\b"
+          "match": "(?<=\\bies:)ActiveEventParticipant\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.OnlineAccountInUse",
-          "match": "\\b(OnlineAccountInUse)\\b"
+          "match": "(?<=\\bies:)OnlineAccountInUse\\b"
         },
         {
           "name": "keyword.name.OnlineService",
-          "match": "\\b(OnlineService)\\b"
+          "match": "(?<=\\bies:)OnlineService\\b"
         },
         {
           "name": "keyword.name.OnlineAccount",
-          "match": "\\b(OnlineAccount)\\b"
+          "match": "(?<=\\bies:)OnlineAccount\\b"
         },
         {
           "name": "keyword.name.Notify",
-          "match": "\\b(Notify)\\b"
+          "match": "(?<=\\bies:)Notify\\b"
         },
         {
           "name": "keyword.name.Logon",
-          "match": "\\b(Logon)\\b"
+          "match": "(?<=\\bies:)Logon\\b"
         },
         {
           "name": "keyword.name.OnlineEvent",
-          "match": "\\b(OnlineEvent)\\b"
+          "match": "(?<=\\bies:)OnlineEvent\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.Attendance",
-          "match": "\\b(Attendance)\\b"
+          "match": "(?<=\\bies:)Attendance\\b"
         },
         {
           "name": "keyword.name.NamingScheme",
-          "match": "\\b(NamingScheme)\\b"
+          "match": "(?<=\\bies:)NamingScheme\\b"
         },
         {
           "name": "keyword.name.Name",
-          "match": "\\b(Name)\\b"
+          "match": "(?<=\\bies:)Name\\b"
         },
         {
           "name": "keyword.name.MeetingChair",
-          "match": "\\b(MeetingChair)\\b"
+          "match": "(?<=\\bies:)MeetingChair\\b"
         },
         {
           "name": "keyword.name.Meeting",
-          "match": "\\b(Meeting)\\b"
+          "match": "(?<=\\bies:)Meeting\\b"
         },
         {
           "name": "keyword.name.Ticket",
-          "match": "\\b(Ticket)\\b"
+          "match": "(?<=\\bies:)Ticket\\b"
         },
         {
           "name": "keyword.name.TicketUsedInCheckIn",
-          "match": "\\b(TicketUsedInCheckIn)\\b"
+          "match": "(?<=\\bies:)TicketUsedInCheckIn\\b"
         },
         {
           "name": "keyword.name.IdUsedInCheckIn",
-          "match": "\\b(IdUsedInCheckIn)\\b"
+          "match": "(?<=\\bies:)IdUsedInCheckIn\\b"
         },
         {
           "name": "keyword.name.IdentityDocument",
-          "match": "\\b(IdentityDocument)\\b"
+          "match": "(?<=\\bies:)IdentityDocument\\b"
         },
         {
           "name": "keyword.name.CheckIn",
-          "match": "\\b(CheckIn)\\b"
+          "match": "(?<=\\bies:)CheckIn\\b"
         },
         {
           "name": "keyword.name.Presence",
-          "match": "\\b(Presence)\\b"
+          "match": "(?<=\\bies:)Presence\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.CoLocation",
-          "match": "\\b(CoLocation)\\b"
+          "match": "(?<=\\bies:)CoLocation\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.EntertainmentEvent",
-          "match": "\\b(EntertainmentEvent)\\b"
+          "match": "(?<=\\bies:)EntertainmentEvent\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Rights",
-          "match": "\\b(Rights)\\b"
+          "match": "(?<=\\bies:)Rights\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.PartNumber",
-          "match": "\\b(PartNumber)\\b"
+          "match": "(?<=\\bies:)PartNumber\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.ClassOfDevice",
-          "match": "\\b(ClassOfDevice)\\b"
+          "match": "(?<=\\bies:)ClassOfDevice\\b"
         },
         {
           "name": "keyword.name.ModelOfDevice",
-          "match": "\\b(ModelOfDevice)\\b"
+          "match": "(?<=\\bies:)ModelOfDevice\\b"
         },
         {
           "name": "keyword.name.Device",
-          "match": "\\b(Device)\\b"
+          "match": "(?<=\\bies:)Device\\b"
         },
         {
           "name": "keyword.name.ClassOfAsset",
-          "match": "\\b(ClassOfAsset)\\b"
+          "match": "(?<=\\bies:)ClassOfAsset\\b"
         },
         {
           "name": "keyword.name.ReceivingAccount",
-          "match": "\\b(ReceivingAccount)\\b"
+          "match": "(?<=\\bies:)ReceivingAccount\\b"
         },
         {
           "name": "keyword.name.SendingAccount",
-          "match": "\\b(SendingAccount)\\b"
+          "match": "(?<=\\bies:)SendingAccount\\b"
         },
         {
           "name": "keyword.name.MoneyTransfer",
-          "match": "\\b(MoneyTransfer)\\b"
+          "match": "(?<=\\bies:)MoneyTransfer\\b"
         },
         {
           "name": "keyword.name.FinancialAccount",
-          "match": "\\b(FinancialAccount)\\b"
+          "match": "(?<=\\bies:)FinancialAccount\\b"
         },
         {
           "name": "keyword.name.EndToEndTransaction",
-          "match": "\\b(EndToEndTransaction)\\b"
+          "match": "(?<=\\bies:)EndToEndTransaction\\b"
         },
         {
           "name": "keyword.name.EndToEndActivity",
-          "match": "\\b(EndToEndActivity)\\b"
+          "match": "(?<=\\bies:)EndToEndActivity\\b"
         },
         {
           "name": "keyword.name.Asset",
-          "match": "\\b(Asset)\\b"
+          "match": "(?<=\\bies:)Asset\\b"
         },
         {
           "name": "keyword.name.ClassOfEntity",
-          "match": "\\b(ClassOfEntity)\\b"
+          "match": "(?<=\\bies:)ClassOfEntity\\b"
         },
         {
           "name": "keyword.name.CashPayment",
-          "match": "\\b(CashPayment)\\b"
+          "match": "(?<=\\bies:)CashPayment\\b"
         },
         {
           "name": "keyword.name.AmountOfMoney",
-          "match": "\\b(AmountOfMoney)\\b"
+          "match": "(?<=\\bies:)AmountOfMoney\\b"
         },
         {
           "name": "keyword.name.Purchase",
-          "match": "\\b(Purchase)\\b"
+          "match": "(?<=\\bies:)Purchase\\b"
         },
         {
           "name": "keyword.name.DeliveryAddress",
-          "match": "\\b(DeliveryAddress)\\b"
+          "match": "(?<=\\bies:)DeliveryAddress\\b"
         },
         {
           "name": "keyword.name.DeliveryRecipient",
-          "match": "\\b(DeliveryRecipient)\\b"
+          "match": "(?<=\\bies:)DeliveryRecipient\\b"
         },
         {
           "name": "keyword.name.OnlineShop",
-          "match": "\\b(OnlineShop)\\b"
+          "match": "(?<=\\bies:)OnlineShop\\b"
         },
         {
           "name": "keyword.name.Carrier",
-          "match": "\\b(Carrier)\\b"
+          "match": "(?<=\\bies:)Carrier\\b"
         },
         {
           "name": "keyword.name.Purchaser",
-          "match": "\\b(Purchaser)\\b"
+          "match": "(?<=\\bies:)Purchaser\\b"
         },
         {
           "name": "keyword.name.Retailer",
-          "match": "\\b(Retailer)\\b"
+          "match": "(?<=\\bies:)Retailer\\b"
         },
         {
           "name": "keyword.name.Supplier",
-          "match": "\\b(Supplier)\\b"
+          "match": "(?<=\\bies:)Supplier\\b"
         },
         {
           "name": "keyword.name.PaymentArtefact",
-          "match": "\\b(PaymentArtefact)\\b"
+          "match": "(?<=\\bies:)PaymentArtefact\\b"
         },
         {
           "name": "keyword.name.WithdrawFromSale",
-          "match": "\\b(WithdrawFromSale)\\b"
+          "match": "(?<=\\bies:)WithdrawFromSale\\b"
         },
         {
           "name": "keyword.name.Address",
-          "match": "\\b(Address)\\b"
+          "match": "(?<=\\bies:)Address\\b"
         },
         {
           "name": "keyword.name.Delivery",
-          "match": "\\b(Delivery)\\b"
+          "match": "(?<=\\bies:)Delivery\\b"
         },
         {
           "name": "keyword.name.RequestForQuotation",
-          "match": "\\b(RequestForQuotation)\\b"
+          "match": "(?<=\\bies:)RequestForQuotation\\b"
         },
         {
           "name": "keyword.name.OfferForSale",
-          "match": "\\b(OfferForSale)\\b"
+          "match": "(?<=\\bies:)OfferForSale\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.TradedAsset",
-          "match": "\\b(TradedAsset)\\b"
+          "match": "(?<=\\bies:)TradedAsset\\b"
         },
         {
           "name": "keyword.name.TradeEvent",
-          "match": "\\b(TradeEvent)\\b"
+          "match": "(?<=\\bies:)TradeEvent\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.OffenceCode",
-          "match": "\\b(OffenceCode)\\b"
+          "match": "(?<=\\bies:)OffenceCode\\b"
         },
         {
           "name": "keyword.name.Identifier",
-          "match": "\\b(Identifier)\\b"
+          "match": "(?<=\\bies:)Identifier\\b"
         },
         {
           "name": "keyword.name.ClassOfCriminalActivity",
-          "match": "\\b(ClassOfCriminalActivity)\\b"
+          "match": "(?<=\\bies:)ClassOfCriminalActivity\\b"
         },
         {
           "name": "keyword.name.Created",
-          "match": "\\b(Created)\\b"
+          "match": "(?<=\\bies:)Created\\b"
         },
         {
           "name": "keyword.name.MaliciousAccountUse",
-          "match": "\\b(MaliciousAccountUse)\\b"
+          "match": "(?<=\\bies:)MaliciousAccountUse\\b"
         },
         {
           "name": "keyword.name.OnlineAccountInUse",
-          "match": "\\b(OnlineAccountInUse)\\b"
+          "match": "(?<=\\bies:)OnlineAccountInUse\\b"
         },
         {
           "name": "keyword.name.OnlineAccount",
-          "match": "\\b(OnlineAccount)\\b"
+          "match": "(?<=\\bies:)OnlineAccount\\b"
         },
         {
           "name": "keyword.name.CyberStalking",
-          "match": "\\b(CyberStalking)\\b"
+          "match": "(?<=\\bies:)CyberStalking\\b"
         },
         {
           "name": "keyword.name.Stalking",
-          "match": "\\b(Stalking)\\b"
+          "match": "(?<=\\bies:)Stalking\\b"
         },
         {
           "name": "keyword.name.Forgery",
-          "match": "\\b(Forgery)\\b"
+          "match": "(?<=\\bies:)Forgery\\b"
         },
         {
           "name": "keyword.name.Victim",
-          "match": "\\b(Victim)\\b"
+          "match": "(?<=\\bies:)Victim\\b"
         },
         {
           "name": "keyword.name.Perpetrator",
-          "match": "\\b(Perpetrator)\\b"
+          "match": "(?<=\\bies:)Perpetrator\\b"
         },
         {
           "name": "keyword.name.TerrorAttack",
-          "match": "\\b(TerrorAttack)\\b"
+          "match": "(?<=\\bies:)TerrorAttack\\b"
         },
         {
           "name": "keyword.name.Hacking",
-          "match": "\\b(Hacking)\\b"
+          "match": "(?<=\\bies:)Hacking\\b"
         },
         {
           "name": "keyword.name.CriminalActivity",
-          "match": "\\b(CriminalActivity)\\b"
+          "match": "(?<=\\bies:)CriminalActivity\\b"
         },
         {
           "name": "keyword.name.ActiveEventParticipant",
-          "match": "\\b(ActiveEventParticipant)\\b"
+          "match": "(?<=\\bies:)ActiveEventParticipant\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.AgreementName",
-          "match": "\\b(AgreementName)\\b"
+          "match": "(?<=\\bies:)AgreementName\\b"
         },
         {
           "name": "keyword.name.Name",
-          "match": "\\b(Name)\\b"
+          "match": "(?<=\\bies:)Name\\b"
         },
         {
           "name": "keyword.name.ActiveEventParticipant",
-          "match": "\\b(ActiveEventParticipant)\\b"
+          "match": "(?<=\\bies:)ActiveEventParticipant\\b"
         },
         {
           "name": "keyword.name.TradeAgreement",
-          "match": "\\b(TradeAgreement)\\b"
+          "match": "(?<=\\bies:)TradeAgreement\\b"
         },
         {
           "name": "keyword.name.PoliticalAgreement",
-          "match": "\\b(PoliticalAgreement)\\b"
+          "match": "(?<=\\bies:)PoliticalAgreement\\b"
         },
         {
           "name": "keyword.name.EndToEndActivity",
-          "match": "\\b(EndToEndActivity)\\b"
+          "match": "(?<=\\bies:)EndToEndActivity\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.Rented",
-          "match": "\\b(Rented)\\b"
+          "match": "(?<=\\bies:)Rented\\b"
         },
         {
           "name": "keyword.name.RentalProvider",
-          "match": "\\b(RentalProvider)\\b"
+          "match": "(?<=\\bies:)RentalProvider\\b"
         },
         {
           "name": "keyword.name.Renter",
-          "match": "\\b(Renter)\\b"
+          "match": "(?<=\\bies:)Renter\\b"
         },
         {
           "name": "keyword.name.RentalAgreement",
-          "match": "\\b(RentalAgreement)\\b"
+          "match": "(?<=\\bies:)RentalAgreement\\b"
         },
         {
           "name": "keyword.name.NonDisclosureAgreement",
-          "match": "\\b(NonDisclosureAgreement)\\b"
+          "match": "(?<=\\bies:)NonDisclosureAgreement\\b"
         },
         {
           "name": "keyword.name.RegionalConstituency",
-          "match": "\\b(RegionalConstituency)\\b"
+          "match": "(?<=\\bies:)RegionalConstituency\\b"
         },
         {
           "name": "keyword.name.Nation",
-          "match": "\\b(Nation)\\b"
+          "match": "(?<=\\bies:)Nation\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.Treaty",
-          "match": "\\b(Treaty)\\b"
+          "match": "(?<=\\bies:)Treaty\\b"
         },
         {
           "name": "keyword.name.Negotiator",
-          "match": "\\b(Negotiator)\\b"
+          "match": "(?<=\\bies:)Negotiator\\b"
         },
         {
           "name": "keyword.name.Signatory",
-          "match": "\\b(Signatory)\\b"
+          "match": "(?<=\\bies:)Signatory\\b"
         },
         {
           "name": "keyword.name.PartyToAgreement",
-          "match": "\\b(PartyToAgreement)\\b"
+          "match": "(?<=\\bies:)PartyToAgreement\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.AgreementExecution",
-          "match": "\\b(AgreementExecution)\\b"
+          "match": "(?<=\\bies:)AgreementExecution\\b"
         },
         {
           "name": "keyword.name.Ratification",
-          "match": "\\b(Ratification)\\b"
+          "match": "(?<=\\bies:)Ratification\\b"
         },
         {
           "name": "keyword.name.Negotiation",
-          "match": "\\b(Negotiation)\\b"
+          "match": "(?<=\\bies:)Negotiation\\b"
         },
         {
           "name": "keyword.name.AgreementStage",
-          "match": "\\b(AgreementStage)\\b"
+          "match": "(?<=\\bies:)AgreementStage\\b"
         },
         {
           "name": "keyword.name.EndToEndAgreement",
-          "match": "\\b(EndToEndAgreement)\\b"
+          "match": "(?<=\\bies:)EndToEndAgreement\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Attacker",
-          "match": "\\b(Attacker)\\b"
+          "match": "(?<=\\bies:)Attacker\\b"
         },
         {
           "name": "keyword.name.ActiveEventParticipant",
-          "match": "\\b(ActiveEventParticipant)\\b"
+          "match": "(?<=\\bies:)ActiveEventParticipant\\b"
         },
         {
           "name": "keyword.name.OperationalEvent",
-          "match": "\\b(OperationalEvent)\\b"
+          "match": "(?<=\\bies:)OperationalEvent\\b"
         },
         {
           "name": "keyword.name.TargetLocation",
-          "match": "\\b(TargetLocation)\\b"
+          "match": "(?<=\\bies:)TargetLocation\\b"
         },
         {
           "name": "keyword.name.WeaponLocation",
-          "match": "\\b(WeaponLocation)\\b"
+          "match": "(?<=\\bies:)WeaponLocation\\b"
         },
         {
           "name": "keyword.name.Casualty",
-          "match": "\\b(Casualty)\\b"
+          "match": "(?<=\\bies:)Casualty\\b"
         },
         {
           "name": "keyword.name.MilitaryAttack",
-          "match": "\\b(MilitaryAttack)\\b"
+          "match": "(?<=\\bies:)MilitaryAttack\\b"
         },
         {
           "name": "keyword.name.MilitaryEvent",
-          "match": "\\b(MilitaryEvent)\\b"
+          "match": "(?<=\\bies:)MilitaryEvent\\b"
         },
         {
           "name": "keyword.name.DeclarationOfWar",
-          "match": "\\b(DeclarationOfWar)\\b"
+          "match": "(?<=\\bies:)DeclarationOfWar\\b"
         },
         {
           "name": "keyword.name.EndToEndActivity",
-          "match": "\\b(EndToEndActivity)\\b"
+          "match": "(?<=\\bies:)EndToEndActivity\\b"
         },
         {
           "name": "keyword.name.AtWar",
-          "match": "\\b(AtWar)\\b"
+          "match": "(?<=\\bies:)AtWar\\b"
         },
         {
           "name": "keyword.name.InternationalCoalition",
-          "match": "\\b(InternationalCoalition)\\b"
+          "match": "(?<=\\bies:)InternationalCoalition\\b"
         },
         {
           "name": "keyword.name.War",
-          "match": "\\b(War)\\b"
+          "match": "(?<=\\bies:)War\\b"
         },
         {
           "name": "keyword.name.InDisagreement",
-          "match": "\\b(InDisagreement)\\b"
+          "match": "(?<=\\bies:)InDisagreement\\b"
         },
         {
           "name": "keyword.name.Disagreement",
-          "match": "\\b(Disagreement)\\b"
+          "match": "(?<=\\bies:)Disagreement\\b"
         },
         {
           "name": "keyword.name.RegionalConstituency",
-          "match": "\\b(RegionalConstituency)\\b"
+          "match": "(?<=\\bies:)RegionalConstituency\\b"
         },
         {
           "name": "keyword.name.Nation",
-          "match": "\\b(Nation)\\b"
+          "match": "(?<=\\bies:)Nation\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.RealEstate",
-          "match": "\\b(RealEstate)\\b"
+          "match": "(?<=\\bies:)RealEstate\\b"
         },
         {
           "name": "keyword.name.Facility",
-          "match": "\\b(Facility)\\b"
+          "match": "(?<=\\bies:)Facility\\b"
         },
         {
           "name": "keyword.name.Arrested",
-          "match": "\\b(Arrested)\\b"
+          "match": "(?<=\\bies:)Arrested\\b"
         },
         {
           "name": "keyword.name.Accused",
-          "match": "\\b(Accused)\\b"
+          "match": "(?<=\\bies:)Accused\\b"
         },
         {
           "name": "keyword.name.IncarcerationFacility",
-          "match": "\\b(IncarcerationFacility)\\b"
+          "match": "(?<=\\bies:)IncarcerationFacility\\b"
         },
         {
           "name": "keyword.name.IncarceratingOrganisation",
-          "match": "\\b(IncarceratingOrganisation)\\b"
+          "match": "(?<=\\bies:)IncarceratingOrganisation\\b"
         },
         {
           "name": "keyword.name.EndToEndActivity",
-          "match": "\\b(EndToEndActivity)\\b"
+          "match": "(?<=\\bies:)EndToEndActivity\\b"
         },
         {
           "name": "keyword.name.Incarceration",
-          "match": "\\b(Incarceration)\\b"
+          "match": "(?<=\\bies:)Incarceration\\b"
         },
         {
           "name": "keyword.name.Prisoner",
-          "match": "\\b(Prisoner)\\b"
+          "match": "(?<=\\bies:)Prisoner\\b"
         },
         {
           "name": "keyword.name.ArrestingOfficer",
-          "match": "\\b(ArrestingOfficer)\\b"
+          "match": "(?<=\\bies:)ArrestingOfficer\\b"
         },
         {
           "name": "keyword.name.Prosecutor",
-          "match": "\\b(Prosecutor)\\b"
+          "match": "(?<=\\bies:)Prosecutor\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.Prosecution",
-          "match": "\\b(Prosecution)\\b"
+          "match": "(?<=\\bies:)Prosecution\\b"
         },
         {
           "name": "keyword.name.Witness",
-          "match": "\\b(Witness)\\b"
+          "match": "(?<=\\bies:)Witness\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.Arrest",
-          "match": "\\b(Arrest)\\b"
+          "match": "(?<=\\bies:)Arrest\\b"
         },
         {
           "name": "keyword.name.LawEnforcement",
-          "match": "\\b(LawEnforcement)\\b"
+          "match": "(?<=\\bies:)LawEnforcement\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.ActiveEventParticipant",
-          "match": "\\b(ActiveEventParticipant)\\b"
+          "match": "(?<=\\bies:)ActiveEventParticipant\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Actor",
-          "match": "\\b(Actor)\\b"
+          "match": "(?<=\\bies:)Actor\\b"
         },
         {
           "name": "keyword.name.Observed",
-          "match": "\\b(Observed)\\b"
+          "match": "(?<=\\bies:)Observed\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.Asset",
-          "match": "\\b(Asset)\\b"
+          "match": "(?<=\\bies:)Asset\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Device",
-          "match": "\\b(Device)\\b"
+          "match": "(?<=\\bies:)Device\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.Observer",
-          "match": "\\b(Observer)\\b"
+          "match": "(?<=\\bies:)Observer\\b"
         },
         {
           "name": "keyword.name.Observation",
-          "match": "\\b(Observation)\\b"
+          "match": "(?<=\\bies:)Observation\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.PossibleWorld",
-          "match": "\\b(PossibleWorld)\\b"
+          "match": "(?<=\\bies:)PossibleWorld\\b"
         },
         {
           "name": "keyword.name.GroupOfItems",
-          "match": "\\b(GroupOfItems)\\b"
+          "match": "(?<=\\bies:)GroupOfItems\\b"
         },
         {
           "name": "keyword.name.Assessor",
-          "match": "\\b(Assessor)\\b"
+          "match": "(?<=\\bies:)Assessor\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.AssessToBeTrue",
-          "match": "\\b(AssessToBeTrue)\\b"
+          "match": "(?<=\\bies:)AssessToBeTrue\\b"
         },
         {
           "name": "keyword.name.Actor",
-          "match": "\\b(Actor)\\b"
+          "match": "(?<=\\bies:)Actor\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Device",
-          "match": "\\b(Device)\\b"
+          "match": "(?<=\\bies:)Device\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.AuthorisedActor",
-          "match": "\\b(AuthorisedActor)\\b"
+          "match": "(?<=\\bies:)AuthorisedActor\\b"
         },
         {
           "name": "keyword.name.Authoriser",
-          "match": "\\b(Authoriser)\\b"
+          "match": "(?<=\\bies:)Authoriser\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.Actor",
-          "match": "\\b(Actor)\\b"
+          "match": "(?<=\\bies:)Actor\\b"
         },
         {
           "name": "keyword.name.AuthorisedEventClass",
-          "match": "\\b(AuthorisedEventClass)\\b"
+          "match": "(?<=\\bies:)AuthorisedEventClass\\b"
         },
         {
           "name": "keyword.name.TimeBoundedClass",
-          "match": "\\b(TimeBoundedClass)\\b"
+          "match": "(?<=\\bies:)TimeBoundedClass\\b"
         },
         {
           "name": "keyword.name.ClassOfEvent",
-          "match": "\\b(ClassOfEvent)\\b"
+          "match": "(?<=\\bies:)ClassOfEvent\\b"
         },
         {
           "name": "keyword.name.AuthorisationReviewer",
-          "match": "\\b(AuthorisationReviewer)\\b"
+          "match": "(?<=\\bies:)AuthorisationReviewer\\b"
         },
         {
           "name": "keyword.name.AuthorisationRequester",
-          "match": "\\b(AuthorisationRequester)\\b"
+          "match": "(?<=\\bies:)AuthorisationRequester\\b"
         },
         {
           "name": "keyword.name.ActiveEventParticipant",
-          "match": "\\b(ActiveEventParticipant)\\b"
+          "match": "(?<=\\bies:)ActiveEventParticipant\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.GrantOfAuthority",
-          "match": "\\b(GrantOfAuthority)\\b"
+          "match": "(?<=\\bies:)GrantOfAuthority\\b"
         },
         {
           "name": "keyword.name.AuthorisationRequest",
-          "match": "\\b(AuthorisationRequest)\\b"
+          "match": "(?<=\\bies:)AuthorisationRequest\\b"
         },
         {
           "name": "keyword.name.AuthorisationStage",
-          "match": "\\b(AuthorisationStage)\\b"
+          "match": "(?<=\\bies:)AuthorisationStage\\b"
         },
         {
           "name": "keyword.name.EndToEndAuthorisation",
-          "match": "\\b(EndToEndAuthorisation)\\b"
+          "match": "(?<=\\bies:)EndToEndAuthorisation\\b"
         },
         {
           "name": "keyword.name.EndToEndActivity",
-          "match": "\\b(EndToEndActivity)\\b"
+          "match": "(?<=\\bies:)EndToEndActivity\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.PeriodOfTime",
-          "match": "\\b(PeriodOfTime)\\b"
+          "match": "(?<=\\bies:)PeriodOfTime\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.Actor",
-          "match": "\\b(Actor)\\b"
+          "match": "(?<=\\bies:)Actor\\b"
         },
         {
           "name": "keyword.name.ActorState",
-          "match": "\\b(ActorState)\\b"
+          "match": "(?<=\\bies:)ActorState\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Marriage",
-          "match": "\\b(Marriage)\\b"
+          "match": "(?<=\\bies:)Marriage\\b"
         },
         {
           "name": "keyword.name.EndToEndActivity",
-          "match": "\\b(EndToEndActivity)\\b"
+          "match": "(?<=\\bies:)EndToEndActivity\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.PersonState",
-          "match": "\\b(PersonState)\\b"
+          "match": "(?<=\\bies:)PersonState\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.Married",
-          "match": "\\b(Married)\\b"
+          "match": "(?<=\\bies:)Married\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Interested",
-          "match": "\\b(Interested)\\b"
+          "match": "(?<=\\bies:)Interested\\b"
         },
         {
           "name": "keyword.name.ActorState",
-          "match": "\\b(ActorState)\\b"
+          "match": "(?<=\\bies:)ActorState\\b"
         },
         {
           "name": "keyword.name.Hates",
-          "match": "\\b(Hates)\\b"
+          "match": "(?<=\\bies:)Hates\\b"
         },
         {
           "name": "keyword.name.Loves",
-          "match": "\\b(Loves)\\b"
+          "match": "(?<=\\bies:)Loves\\b"
         },
         {
           "name": "keyword.name.Likes",
-          "match": "\\b(Likes)\\b"
+          "match": "(?<=\\bies:)Likes\\b"
         },
         {
           "name": "keyword.name.Dislikes",
-          "match": "\\b(Dislikes)\\b"
+          "match": "(?<=\\bies:)Dislikes\\b"
         },
         {
           "name": "keyword.name.ClassOfElement",
-          "match": "\\b(ClassOfElement)\\b"
+          "match": "(?<=\\bies:)ClassOfElement\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.PersonState",
-          "match": "\\b(PersonState)\\b"
+          "match": "(?<=\\bies:)PersonState\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.ActiveEventParticipant",
-          "match": "\\b(ActiveEventParticipant)\\b"
+          "match": "(?<=\\bies:)ActiveEventParticipant\\b"
         },
         {
           "name": "keyword.name.Destroy",
-          "match": "\\b(Destroy)\\b"
+          "match": "(?<=\\bies:)Destroy\\b"
         },
         {
           "name": "keyword.name.Modify",
-          "match": "\\b(Modify)\\b"
+          "match": "(?<=\\bies:)Modify\\b"
         },
         {
           "name": "keyword.name.Modifier",
-          "match": "\\b(Modifier)\\b"
+          "match": "(?<=\\bies:)Modifier\\b"
         },
         {
           "name": "keyword.name.Destroyer",
-          "match": "\\b(Destroyer)\\b"
+          "match": "(?<=\\bies:)Destroyer\\b"
         },
         {
           "name": "keyword.name.Creator",
-          "match": "\\b(Creator)\\b"
+          "match": "(?<=\\bies:)Creator\\b"
         },
         {
           "name": "keyword.name.Create",
-          "match": "\\b(Create)\\b"
+          "match": "(?<=\\bies:)Create\\b"
         },
         {
           "name": "keyword.name.LifecycleEvent",
-          "match": "\\b(LifecycleEvent)\\b"
+          "match": "(?<=\\bies:)LifecycleEvent\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Disagreement",
-          "match": "\\b(Disagreement)\\b"
+          "match": "(?<=\\bies:)Disagreement\\b"
         },
         {
           "name": "keyword.name.InDisagreement",
-          "match": "\\b(InDisagreement)\\b"
+          "match": "(?<=\\bies:)InDisagreement\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.ActiveEventParticipant",
-          "match": "\\b(ActiveEventParticipant)\\b"
+          "match": "(?<=\\bies:)ActiveEventParticipant\\b"
         },
         {
           "name": "keyword.name.AtWar",
-          "match": "\\b(AtWar)\\b"
+          "match": "(?<=\\bies:)AtWar\\b"
         },
         {
           "name": "keyword.name.War",
-          "match": "\\b(War)\\b"
+          "match": "(?<=\\bies:)War\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.Negotiator",
-          "match": "\\b(Negotiator)\\b"
+          "match": "(?<=\\bies:)Negotiator\\b"
         },
         {
           "name": "keyword.name.Signatory",
-          "match": "\\b(Signatory)\\b"
+          "match": "(?<=\\bies:)Signatory\\b"
         },
         {
           "name": "keyword.name.PartyToAgreement",
-          "match": "\\b(PartyToAgreement)\\b"
+          "match": "(?<=\\bies:)PartyToAgreement\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Ratification",
-          "match": "\\b(Ratification)\\b"
+          "match": "(?<=\\bies:)Ratification\\b"
         },
         {
           "name": "keyword.name.Negotiation",
-          "match": "\\b(Negotiation)\\b"
+          "match": "(?<=\\bies:)Negotiation\\b"
         },
         {
           "name": "keyword.name.EndToEndAgreement",
-          "match": "\\b(EndToEndAgreement)\\b"
+          "match": "(?<=\\bies:)EndToEndAgreement\\b"
         },
         {
           "name": "keyword.name.Ticket",
-          "match": "\\b(Ticket)\\b"
+          "match": "(?<=\\bies:)Ticket\\b"
         },
         {
           "name": "keyword.name.TravelTicket",
-          "match": "\\b(TravelTicket)\\b"
+          "match": "(?<=\\bies:)TravelTicket\\b"
         },
         {
           "name": "keyword.name.AssetState",
-          "match": "\\b(AssetState)\\b"
+          "match": "(?<=\\bies:)AssetState\\b"
         },
         {
           "name": "keyword.name.Asset",
-          "match": "\\b(Asset)\\b"
+          "match": "(?<=\\bies:)Asset\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Movement",
-          "match": "\\b(Movement)\\b"
+          "match": "(?<=\\bies:)Movement\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Transit",
-          "match": "\\b(Transit)\\b"
+          "match": "(?<=\\bies:)Transit\\b"
         },
         {
           "name": "keyword.name.TrainTravel",
-          "match": "\\b(TrainTravel)\\b"
+          "match": "(?<=\\bies:)TrainTravel\\b"
         },
         {
           "name": "keyword.name.Sailing",
-          "match": "\\b(Sailing)\\b"
+          "match": "(?<=\\bies:)Sailing\\b"
         },
         {
           "name": "keyword.name.Flight",
-          "match": "\\b(Flight)\\b"
+          "match": "(?<=\\bies:)Flight\\b"
         },
         {
           "name": "keyword.name.TravelService",
-          "match": "\\b(TravelService)\\b"
+          "match": "(?<=\\bies:)TravelService\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Asset",
-          "match": "\\b(Asset)\\b"
+          "match": "(?<=\\bies:)Asset\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.PersonState",
-          "match": "\\b(PersonState)\\b"
+          "match": "(?<=\\bies:)PersonState\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.ClassOfElement",
-          "match": "\\b(ClassOfElement)\\b"
+          "match": "(?<=\\bies:)ClassOfElement\\b"
         },
         {
           "name": "keyword.name.Cooperator",
-          "match": "\\b(Cooperator)\\b"
+          "match": "(?<=\\bies:)Cooperator\\b"
         },
         {
           "name": "keyword.name.Cooperation",
-          "match": "\\b(Cooperation)\\b"
+          "match": "(?<=\\bies:)Cooperation\\b"
         },
         {
           "name": "keyword.name.Competitor",
-          "match": "\\b(Competitor)\\b"
+          "match": "(?<=\\bies:)Competitor\\b"
         },
         {
           "name": "keyword.name.EventParticipant",
-          "match": "\\b(EventParticipant)\\b"
+          "match": "(?<=\\bies:)EventParticipant\\b"
         },
         {
           "name": "keyword.name.Competition",
-          "match": "\\b(Competition)\\b"
+          "match": "(?<=\\bies:)Competition\\b"
         },
         {
           "name": "keyword.name.Event",
-          "match": "\\b(Event)\\b"
+          "match": "(?<=\\bies:)Event\\b"
         },
         {
           "name": "keyword.name.Alliance",
-          "match": "\\b(Alliance)\\b"
+          "match": "(?<=\\bies:)Alliance\\b"
         },
         {
           "name": "keyword.name.Organisation",
-          "match": "\\b(Organisation)\\b"
+          "match": "(?<=\\bies:)Organisation\\b"
         },
         {
           "name": "keyword.name.OrganisationState",
-          "match": "\\b(OrganisationState)\\b"
+          "match": "(?<=\\bies:)OrganisationState\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "keyword.name.PersonState",
-          "match": "\\b(PersonState)\\b"
+          "match": "(?<=\\bies:)PersonState\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.SimilarEntities",
-          "match": "\\b(SimilarEntities)\\b"
+          "match": "(?<=\\bies:)SimilarEntities\\b"
         },
         {
           "name": "keyword.name.WorkOfDocumentation",
-          "match": "\\b(WorkOfDocumentation)\\b"
+          "match": "(?<=\\bies:)WorkOfDocumentation\\b"
         },
         {
           "name": "keyword.name.ClassOfIndividualDocument",
-          "match": "\\b(ClassOfIndividualDocument)\\b"
+          "match": "(?<=\\bies:)ClassOfIndividualDocument\\b"
         },
         {
           "name": "keyword.name.Representation",
-          "match": "\\b(Representation)\\b"
+          "match": "(?<=\\bies:)Representation\\b"
         },
         {
           "name": "keyword.name.ClassOfEntity",
-          "match": "\\b(ClassOfEntity)\\b"
+          "match": "(?<=\\bies:)ClassOfEntity\\b"
         },
         {
           "name": "keyword.name.IndividualDocument",
-          "match": "\\b(IndividualDocument)\\b"
+          "match": "(?<=\\bies:)IndividualDocument\\b"
         },
         {
           "name": "keyword.name.Asset",
-          "match": "\\b(Asset)\\b"
+          "match": "(?<=\\bies:)Asset\\b"
         },
         {
           "name": "keyword.name.ClassOfElement",
-          "match": "\\b(ClassOfElement)\\b"
+          "match": "(?<=\\bies:)ClassOfElement\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.Crossing",
-          "match": "\\b(Crossing)\\b"
+          "match": "(?<=\\bies:)Crossing\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.ArbitraryOverlap",
-          "match": "\\b(ArbitraryOverlap)\\b"
+          "match": "(?<=\\bies:)ArbitraryOverlap\\b"
         },
         {
           "name": "keyword.name.ExchangedItem",
-          "match": "\\b(ExchangedItem)\\b"
+          "match": "(?<=\\bies:)ExchangedItem\\b"
         },
         {
           "name": "keyword.name.Element",
-          "match": "\\b(Element)\\b"
+          "match": "(?<=\\bies:)Element\\b"
         },
         {
           "name": "keyword.name.Entity",
-          "match": "\\b(Entity)\\b"
+          "match": "(?<=\\bies:)Entity\\b"
         },
         {
           "name": "keyword.name.SubjectOfInterest",
-          "match": "\\b(SubjectOfInterest)\\b"
+          "match": "(?<=\\bies:)SubjectOfInterest\\b"
         },
         {
           "name": "keyword.name.State",
-          "match": "\\b(State)\\b"
+          "match": "(?<=\\bies:)State\\b"
         },
         {
           "name": "keyword.name.PeriodOfTime",
-          "match": "\\b(PeriodOfTime)\\b"
+          "match": "(?<=\\bies:)PeriodOfTime\\b"
         },
         {
           "name": "keyword.name.PersonState",
-          "match": "\\b(PersonState)\\b"
+          "match": "(?<=\\bies:)PersonState\\b"
         },
         {
           "name": "keyword.name.ResponsibleActorState",
-          "match": "\\b(ResponsibleActorState)\\b"
+          "match": "(?<=\\bies:)ResponsibleActorState\\b"
         },
         {
           "name": "keyword.name.DeathState",
-          "match": "\\b(DeathState)\\b"
+          "match": "(?<=\\bies:)DeathState\\b"
         },
         {
           "name": "keyword.name.BirthState",
-          "match": "\\b(BirthState)\\b"
+          "match": "(?<=\\bies:)BirthState\\b"
         },
         {
           "name": "keyword.name.Location",
-          "match": "\\b(Location)\\b"
+          "match": "(?<=\\bies:)Location\\b"
         },
         {
           "name": "keyword.name.ResponsibleActor",
-          "match": "\\b(ResponsibleActor)\\b"
+          "match": "(?<=\\bies:)ResponsibleActor\\b"
         },
         {
           "name": "keyword.name.Person",
-          "match": "\\b(Person)\\b"
+          "match": "(?<=\\bies:)Person\\b"
         },
         {
           "name": "prefix-at.ttl",
