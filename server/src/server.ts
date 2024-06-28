@@ -38,17 +38,27 @@ documents.onDidOpen((event) => {
 });
 documents.listen(connection);
 
-function validateTextDocument(textDocument: TextDocument): void {
-    const diagnostics: Diagnostic[] = [];
+function validateTextDocument(textDocument) {
+    const diagnostics = [];
     const lines = textDocument.getText().split(/\r?\n/g);
+    let inStringLiteral = false;
     let inBracketBlock = false;
-
     for (let i = 0; i < lines.length; i++) {
-        const line = lines[i].trim();
-		if (line.startsWith('#')) {
+        let line = lines[i].trim();
+        // check if line starts or ends a string literal
+        if (line.includes('"')) {
+            const quoteCount = (line.match(/"/g) || []).length;
+            if (quoteCount % 2 !== 0) {
+                inStringLiteral = !inStringLiteral;
+            }
+        }
+        if (inStringLiteral) {
             continue;
         }
-		if (/^\s*$/.test(line)) {
+        if (line.startsWith('#')) {
+            continue;
+        }
+        if (/^\s*$/.test(line)) {
             continue;
         }
         // track if inside a bracket block
@@ -59,6 +69,16 @@ function validateTextDocument(textDocument: TextDocument): void {
             inBracketBlock = false;
         }
         if (!(line.endsWith('.') || line.endsWith(',') || line.endsWith(';'))) {
+            const diagnostic = {
+                severity: DiagnosticSeverity.Error,
+                range: {
+                    start: { line: i, character: 0 },
+                    end: { line: i, character: line.length }
+                },
+                message: `Lines end with a dot, comma, or semicolon`,
+                source: 'telicent-ies'
+            };
+            diagnostics.push(diagnostic);
             // allow line that starts a bracket block to be exempt
             if (!(inBracketBlock && line.endsWith('['))) {
                 const diagnostic: Diagnostic = {
@@ -74,7 +94,6 @@ function validateTextDocument(textDocument: TextDocument): void {
             }
         }
     }
-
     // Send the computed diagnostics to the LSP client.
     connection.sendDiagnostics({ uri: textDocument.uri, diagnostics });
 }
