@@ -26,7 +26,6 @@ documents.onDidOpen((event) => {
     connection.console.log(`[Server(${process.pid}) ${workspaceFolder}] Document opened: ${event.document.uri}`);
 });
 documents.listen(connection);
-
 function validateTextDocument(textDocument) {
     const diagnostics = [];
     const lines = textDocument.getText().split(/\r?\n/g);
@@ -58,16 +57,6 @@ function validateTextDocument(textDocument) {
             inBracketBlock = false;
         }
         if (!(line.endsWith('.') || line.endsWith(',') || line.endsWith(';'))) {
-            const diagnostic = {
-                severity: node_1.DiagnosticSeverity.Error,
-                range: {
-                    start: { line: i, character: 0 },
-                    end: { line: i, character: line.length }
-                },
-                message: `Lines end with a dot, comma, or semicolon`,
-                source: 'telicent-ies'
-            };
-            diagnostics.push(diagnostic);
             // allow line that starts a bracket block to be exempt
             if (!(inBracketBlock && line.endsWith('['))) {
                 const diagnostic = {

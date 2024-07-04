@@ -69,16 +69,6 @@ function validateTextDocument(textDocument) {
             inBracketBlock = false;
         }
         if (!(line.endsWith('.') || line.endsWith(',') || line.endsWith(';'))) {
-            const diagnostic = {
-                severity: DiagnosticSeverity.Error,
-                range: {
-                    start: { line: i, character: 0 },
-                    end: { line: i, character: line.length }
-                },
-                message: `Lines end with a dot, comma, or semicolon`,
-                source: 'telicent-ies'
-            };
-            diagnostics.push(diagnostic);
             // allow line that starts a bracket block to be exempt
             if (!(inBracketBlock && line.endsWith('['))) {
                 const diagnostic: Diagnostic = {
