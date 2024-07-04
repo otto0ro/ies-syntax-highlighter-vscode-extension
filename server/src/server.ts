@@ -118,8 +118,6 @@ documents.onDidChangeContent(change => {
         }
     }
 });
-
-
 connection.onHover(
     ({ textDocument: { uri }, position }): Hover | null => {
         const documentContent = documentsContent.get(uri);
@@ -128,7 +126,24 @@ connection.onHover(
             const lines = documentContent.split(/\r?\n/g);
             const line = lines[position.line];
 
+            // check if the line contains an object in the form of a triple
+            let match = line.match(/(?:data:\S+)\s+a\s+(?:\S+:\S+)\s*;\s*[\w:]+\s+(data:\S+)/);
+            if (!match) {
+                // if not, check if the line is a standalone object
+                match = line.match(/(data:\S+)\s*\.\s*$/);
+            }
 
+            if (match) {
+                const dataId = match[1];
+                const recordType = dataToRecordMap[dataId];
+                if (recordType) {
+                    return {
+                        contents: recordType
+                    };
+                }
+            }
+
+            // fallback to records-based lookup
             for (const record of records) {
                 for (const key in record) {
                     if (line.includes(key)) {
@@ -138,24 +153,11 @@ connection.onHover(
                     }
                 }
             }
-            
-
-            const match = line.match(/(data:\S+)/); 
-            if (match) {
-                const dataId = match[0];
-                const recordType = dataToRecordMap[dataId];
-                if (recordType) {
-                    return {
-                        contents: recordType
-                    };
-                }
-            }
         }
 
         return null;
     }
 );
-
 connection.onCompletion((params: CompletionParams): CompletionItem[] => {
     const documentContent = documentsContent.get(params.textDocument.uri);
 
