@@ -126,29 +126,55 @@ connection.onHover(
             const lines = documentContent.split(/\r?\n/g);
             const line = lines[position.line];
 
-            // check if the line contains an object in the form of a triple
-            let match = line.match(/(?:data:\S+)\s+a\s+(?:\S+:\S+)\s*;\s*[\w:]+\s+(data:\S+)/);
-            if (!match) {
-                // if not, check if the line is a standalone object
-                match = line.match(/(data:\S+)\s*\.\s*$/);
+            // extract the word at the hover position
+            const words = line.split(/\s+/);
+            const word = words.find(w => line.indexOf(w) <= position.character && line.indexOf(w) + w.length >= position.character);
+
+            if (!word) {
+                return null;
             }
 
-            if (match) {
-                const dataId = match[1];
-                const recordType = dataToRecordMap[dataId];
-                if (recordType) {
+            // match triples of form 'data:instance a class'
+            const tripleMatch = line.match(/(data:\S+)\s+a\s+(\S+:\S+)/);
+
+            if (tripleMatch) {
+                const dataId = tripleMatch[1];
+                const className = tripleMatch[2];
+                dataToRecordMap[dataId] = className; // Store the mapping
+                
+                if (word === className) {
+                    // if the hovered word is the class name, show its definition
+                    for (const record of records) {
+                        if (record[className]) {
+                            return {
+                                contents: record[className]
+                            };
+                        }
+                    }
+                } else if (word === dataId) {
+                    // if the hovered word is the instance, show the class it belongs to
                     return {
-                        contents: recordType
+                        contents: `${className}`
                     };
                 }
-            }
-
-            // fallback to records-based lookup
-            for (const record of records) {
-                for (const key in record) {
-                    if (line.includes(key)) {
+            } else {
+                // check if the line contains a standalone instance
+                const instanceMatch = line.match(/(data:\S+)\s*\.\s*$/);
+                if (instanceMatch) {
+                    const dataId = instanceMatch[1];
+                    const className = dataToRecordMap[dataId];
+                    if (className) {
                         return {
-                            contents: record[key]
+                            contents: `${className}`
+                        };
+                    }
+                }
+
+                // fallback to check if it's a class and show its definition
+                for (const record of records) {
+                    if (record[word]) {
+                        return {
+                            contents: record[word]
                         };
                     }
                 }
