@@ -110,7 +110,7 @@ documents.onDidChangeContent(change => {
     dataToRecordMap = {};
     const lines = documentContent.split(/\r?\n/g);
     for (const line of lines) {
-        const match = line.match(/(data:\S+) a (\S+:\S+)/);  // adjust regex to match any namespace
+        const match = line.match(/(data:\S+) a (\S+:\S+)/); 
         if (match) {
             const dataId = match[1];
             const recordType = match[2];
@@ -118,105 +118,86 @@ documents.onDidChangeContent(change => {
         }
     }
 });
-connection.onHover(
-    ({ textDocument: { uri }, position }): Hover | null => {
-        const documentContent = documentsContent.get(uri);
-
-        if (documentContent) {
-            const lines = documentContent.split(/\r?\n/g);
-            const line = lines[position.line];
-
-            // extract the word at the hover position
-            const words = line.split(/\s+/);
-            const word = words.find(w => line.indexOf(w) <= position.character && line.indexOf(w) + w.length >= position.character);
-
-            if (!word) {
-                return null;
-            }
-
-            // match triples of the form 'data:instance a class'
-            const tripleMatch = line.match(/(data:\S+)\s+a\s+(\S+:\S+)/);
-
-            if (tripleMatch) {
-                const dataId = tripleMatch[1];
-                const className = tripleMatch[2];
-                dataToRecordMap[dataId] = className; // store mapping
-                
-                if (word === className) {
-                    // if the hovered word is the class name, show its definition
-                    for (const record of records) {
-                        if (record[className]) {
-                            return {
-                                contents: record[className]
-                            };
-                        }
-                    }
-                } else if (word === dataId) {
-                    // if the hovered word is the instance, show the class it belongs to
-                    return {
-                        contents: `${dataId} is an instance of ${className}`
-                    };
-                }
-            } else {
-                // check if the line contains a standalone instance
-                const instanceMatch = line.match(/(data:\S+)\s*\.\s*$/);
-                if (instanceMatch) {
-                    const dataId = instanceMatch[1];
-                    const className = dataToRecordMap[dataId];
-                    if (className) {
-                        return {
-                            contents: `${dataId} is an instance of ${className}`
-                        };
-                    }
-                }
-
-                // check if the line contains a predicate-object pair involving an instance
-                const predicateObjectMatch = line.match(/(\S+:\S+)\s+(\S+:\S+)\s+(data:\S+)/);
-                if (predicateObjectMatch) {
-                    const predicate = predicateObjectMatch[2];
-                    const instance = predicateObjectMatch[3];
-                    const className = dataToRecordMap[instance];
-                    if (word === instance && className) {
-                        return {
-                            contents: `${instance} is an instance of ${className}`
-                        };
-                    } else if (word === predicate) {
-                        for (const record of records) {
-                            if (record[predicate]) {
-                                return {
-                                    contents: record[predicate]
-                                };
-                            }
-                        }
-                    }
-                }
-
-                // check if the line contains a literal assignment
-                const literalAssignmentMatch = line.match(/(\S+:\S+)\s+(\S+:\S+)\s+"[^"]*"\s*\.\s*$/);
-                if (literalAssignmentMatch) {
-                    const instance = literalAssignmentMatch[1];
-                    const className = dataToRecordMap[instance];
-                    if (word === instance && className) {
-                        return {
-                            contents: `${instance} is an instance of ${className}`
-                        };
-                    }
-                }
-
-                // fallback to check if it's a class and show its definition
-                for (const record of records) {
-                    if (record[word]) {
-                        return {
-                            contents: record[word]
-                        };
-                    }
-                }
-            }
-        }
-
+connection.onHover(({ textDocument: { uri }, position }) => {
+    const documentContent = documentsContent.get(uri);
+    if (!documentContent) {
         return null;
     }
-);
+
+    const lines = documentContent.split(/\r?\n/g);
+    const line = lines[position.line];
+    const words = line.split(/\s+/);
+    const word = words.find(w => line.indexOf(w) <= position.character && line.indexOf(w) + w.length >= position.character);
+
+    if (!word) {
+        return null;
+    }
+
+    const getRecordContent = (key) => {
+        for (const record of records) {
+            if (record[key]) {
+                return record[key];
+            }
+        }
+        return null;
+    };
+
+    const tripleMatch = line.match(/(data:\S+|iso3166:\S+)\s+a\s+(\S+:\S+)\s*[\.;]?/); // it should be more generic
+    if (tripleMatch) {
+        const [_, dataId, className] = tripleMatch;
+        dataToRecordMap[dataId] = className;
+        if (word === className) {
+            return { contents: getRecordContent(className) };
+        }
+        if (word === dataId) {
+            return { contents: `${className}` };
+        }
+    }
+
+    const predicateObjectMatch = line.match(/(\S+:\S+)\s+(\S+:\S+)\s+(data:\S+|iso3166:\S+)\s*[\.;]?/);
+    if (predicateObjectMatch) {
+        const [_, subject, predicate, object] = predicateObjectMatch;
+        if (word === object) {
+            const className = dataToRecordMap[object];
+            if (className) {
+                return { contents: `${className}` };
+            }
+        }
+        if (word === predicate) {
+            return { contents: getRecordContent(predicate) };
+        }
+        if (word === subject) {
+            const className = dataToRecordMap[subject];
+            if (className) {
+                return { contents: `${className}` };
+            }
+        }
+    }
+
+    const standaloneMatch = line.match(/(\S+:\S+)\s*[\.;]?$/);
+    if (standaloneMatch) {
+        const [_, entity] = standaloneMatch;
+        const className = dataToRecordMap[entity];
+        if (className) {
+            return { contents: `${className}` };
+        }
+        return { contents: getRecordContent(entity) };
+    }
+
+    const literalAssignmentMatch = line.match(/(\S+:\S+)\s+(\S+:\S+)\s+"[^"]*"\s*[\.;]?$/);
+    if (literalAssignmentMatch) {
+        const [_, instance] = literalAssignmentMatch;
+        const className = dataToRecordMap[instance];
+        if (word === instance && className) {
+            return { contents: `${className}` };
+        }
+    }
+
+    return { contents: getRecordContent(word) };
+});
+
+
+
 
 connection.onCompletion((params: CompletionParams): CompletionItem[] => {
     const documentContent = documentsContent.get(params.textDocument.uri);
